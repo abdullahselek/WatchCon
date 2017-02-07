@@ -10,6 +10,8 @@
 		A43C9F571E4A5F8300229FB8 /* WatchCon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C9F4D1E4A5F8200229FB8 /* WatchCon.framework */; };
 		A43C9F5C1E4A5F8300229FB8 /* WatchConTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43C9F5B1E4A5F8300229FB8 /* WatchConTests.m */; };
 		A43C9F5E1E4A5F8300229FB8 /* WatchCon.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F501E4A5F8200229FB8 /* WatchCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A43C9F691E4A605000229FB8 /* WatchConSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F671E4A605000229FB8 /* WatchConSession.h */; };
+		A43C9F6A1E4A605000229FB8 /* WatchConSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A43C9F681E4A605000229FB8 /* WatchConSession.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		A43C9F561E4A5F8300229FB8 /* WatchConTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchConTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43C9F5B1E4A5F8300229FB8 /* WatchConTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchConTests.m; sourceTree = "<group>"; };
 		A43C9F5D1E4A5F8300229FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43C9F671E4A605000229FB8 /* WatchConSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchConSession.h; sourceTree = "<group>"; };
+		A43C9F681E4A605000229FB8 /* WatchConSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchConSession.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				A43C9F501E4A5F8200229FB8 /* WatchCon.h */,
 				A43C9F511E4A5F8200229FB8 /* Info.plist */,
+				A43C9F671E4A605000229FB8 /* WatchConSession.h */,
+				A43C9F681E4A605000229FB8 /* WatchConSession.m */,
 			);
 			path = WatchCon;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43C9F691E4A605000229FB8 /* WatchConSession.h in Headers */,
 				A43C9F5E1E4A5F8300229FB8 /* WatchCon.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43C9F6A1E4A605000229FB8 /* WatchConSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
