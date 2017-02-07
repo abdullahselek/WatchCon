@@ -7,45 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A43C9F571E4A5F8300229FB8 /* WatchCon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C9F4D1E4A5F8200229FB8 /* WatchCon.framework */; };
-		A43C9F5E1E4A5F8300229FB8 /* WatchCon.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F501E4A5F8200229FB8 /* WatchCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A43C9F691E4A605000229FB8 /* WatchConSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F671E4A605000229FB8 /* WatchConSession.h */; };
-		A43C9F6A1E4A605000229FB8 /* WatchConSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A43C9F681E4A605000229FB8 /* WatchConSession.m */; };
+		A43C9FA81E4A634600229FB8 /* WatchCon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C9F9F1E4A634500229FB8 /* WatchCon.framework */; };
+		A43C9FAD1E4A634600229FB8 /* WatchCon_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A43C9FAC1E4A634600229FB8 /* WatchCon_iOSTests.m */; };
+		A43C9FB81E4A63DC00229FB8 /* WatchCon.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F931E4A62C000229FB8 /* WatchCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A43C9FB91E4A63DC00229FB8 /* WatchConSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F941E4A62C000229FB8 /* WatchConSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A43C9F581E4A5F8300229FB8 /* PBXContainerItemProxy */ = {
+		A43C9FA91E4A634600229FB8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A43C9F441E4A5F8200229FB8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A43C9F4C1E4A5F8200229FB8;
-			remoteInfo = WatchCon;
+			remoteGlobalIDString = A43C9F9E1E4A634500229FB8;
+			remoteInfo = "WatchCon-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A43C9F4D1E4A5F8200229FB8 /* WatchCon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchCon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A43C9F501E4A5F8200229FB8 /* WatchCon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WatchCon.h; sourceTree = "<group>"; };
-		A43C9F511E4A5F8200229FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A43C9F561E4A5F8300229FB8 /* WatchConTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchConTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A43C9F5D1E4A5F8300229FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A43C9F671E4A605000229FB8 /* WatchConSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchConSession.h; sourceTree = "<group>"; };
-		A43C9F681E4A605000229FB8 /* WatchConSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchConSession.m; sourceTree = "<group>"; };
+		A43C9F931E4A62C000229FB8 /* WatchCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchCon.h; path = Sources/WatchCon.h; sourceTree = "<group>"; };
+		A43C9F941E4A62C000229FB8 /* WatchConSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchConSession.h; path = Sources/WatchConSession.h; sourceTree = "<group>"; };
+		A43C9F951E4A62C000229FB8 /* WatchConSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchConSession.m; path = Sources/WatchConSession.m; sourceTree = "<group>"; };
+		A43C9F9F1E4A634500229FB8 /* WatchCon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchCon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43C9FA71E4A634600229FB8 /* WatchCon-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchCon-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A43C9FAC1E4A634600229FB8 /* WatchCon_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchCon_iOSTests.m; sourceTree = "<group>"; };
+		A43C9FAE1E4A634600229FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A43C9FB61E4A639000229FB8 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A43C9F491E4A5F8200229FB8 /* Frameworks */ = {
+		A43C9F9B1E4A634500229FB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A43C9F531E4A5F8300229FB8 /* Frameworks */ = {
+		A43C9FA41E4A634600229FB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43C9F571E4A5F8300229FB8 /* WatchCon.framework in Frameworks */,
+				A43C9FA81E4A634600229FB8 /* WatchCon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +56,9 @@
 		A43C9F431E4A5F8200229FB8 = {
 			isa = PBXGroup;
 			children = (
-				A43C9F4F1E4A5F8200229FB8 /* WatchCon */,
-				A43C9F5A1E4A5F8300229FB8 /* WatchConTests */,
+				A43C9F911E4A629300229FB8 /* Sources */,
+				A43C9F741E4A61C200229FB8 /* Tests */,
+				A43C9FAB1E4A634600229FB8 /* WatchCon-iOSTests */,
 				A43C9F4E1E4A5F8200229FB8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,80 +66,88 @@
 		A43C9F4E1E4A5F8200229FB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A43C9F4D1E4A5F8200229FB8 /* WatchCon.framework */,
-				A43C9F561E4A5F8300229FB8 /* WatchConTests.xctest */,
+				A43C9F9F1E4A634500229FB8 /* WatchCon.framework */,
+				A43C9FA71E4A634600229FB8 /* WatchCon-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A43C9F4F1E4A5F8200229FB8 /* WatchCon */ = {
+		A43C9F741E4A61C200229FB8 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				A43C9F501E4A5F8200229FB8 /* WatchCon.h */,
-				A43C9F511E4A5F8200229FB8 /* Info.plist */,
-				A43C9F671E4A605000229FB8 /* WatchConSession.h */,
-				A43C9F681E4A605000229FB8 /* WatchConSession.m */,
 			);
-			path = WatchCon;
+			name = Tests;
 			sourceTree = "<group>";
 		};
-		A43C9F5A1E4A5F8300229FB8 /* WatchConTests */ = {
+		A43C9F911E4A629300229FB8 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A43C9F5D1E4A5F8300229FB8 /* Info.plist */,
+				A43C9FB61E4A639000229FB8 /* Info-iOS.plist */,
+				A43C9F931E4A62C000229FB8 /* WatchCon.h */,
+				A43C9F941E4A62C000229FB8 /* WatchConSession.h */,
+				A43C9F951E4A62C000229FB8 /* WatchConSession.m */,
 			);
-			path = WatchConTests;
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		A43C9FAB1E4A634600229FB8 /* WatchCon-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A43C9FAC1E4A634600229FB8 /* WatchCon_iOSTests.m */,
+				A43C9FAE1E4A634600229FB8 /* Info.plist */,
+			);
+			path = "WatchCon-iOSTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A43C9F4A1E4A5F8200229FB8 /* Headers */ = {
+		A43C9F9C1E4A634500229FB8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43C9F691E4A605000229FB8 /* WatchConSession.h in Headers */,
-				A43C9F5E1E4A5F8300229FB8 /* WatchCon.h in Headers */,
+				A43C9FB81E4A63DC00229FB8 /* WatchCon.h in Headers */,
+				A43C9FB91E4A63DC00229FB8 /* WatchConSession.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A43C9F4C1E4A5F8200229FB8 /* WatchCon */ = {
+		A43C9F9E1E4A634500229FB8 /* WatchCon-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A43C9F611E4A5F8300229FB8 /* Build configuration list for PBXNativeTarget "WatchCon" */;
+			buildConfigurationList = A43C9FB01E4A634600229FB8 /* Build configuration list for PBXNativeTarget "WatchCon-iOS" */;
 			buildPhases = (
-				A43C9F481E4A5F8200229FB8 /* Sources */,
-				A43C9F491E4A5F8200229FB8 /* Frameworks */,
-				A43C9F4A1E4A5F8200229FB8 /* Headers */,
-				A43C9F4B1E4A5F8200229FB8 /* Resources */,
+				A43C9F9A1E4A634500229FB8 /* Sources */,
+				A43C9F9B1E4A634500229FB8 /* Frameworks */,
+				A43C9F9C1E4A634500229FB8 /* Headers */,
+				A43C9F9D1E4A634500229FB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WatchCon;
-			productName = WatchCon;
-			productReference = A43C9F4D1E4A5F8200229FB8 /* WatchCon.framework */;
+			name = "WatchCon-iOS";
+			productName = "WatchCon-iOS";
+			productReference = A43C9F9F1E4A634500229FB8 /* WatchCon.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A43C9F551E4A5F8300229FB8 /* WatchConTests */ = {
+		A43C9FA61E4A634600229FB8 /* WatchCon-iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A43C9F641E4A5F8300229FB8 /* Build configuration list for PBXNativeTarget "WatchConTests" */;
+			buildConfigurationList = A43C9FB31E4A634600229FB8 /* Build configuration list for PBXNativeTarget "WatchCon-iOSTests" */;
 			buildPhases = (
-				A43C9F521E4A5F8300229FB8 /* Sources */,
-				A43C9F531E4A5F8300229FB8 /* Frameworks */,
-				A43C9F541E4A5F8300229FB8 /* Resources */,
+				A43C9FA31E4A634600229FB8 /* Sources */,
+				A43C9FA41E4A634600229FB8 /* Frameworks */,
+				A43C9FA51E4A634600229FB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A43C9F591E4A5F8300229FB8 /* PBXTargetDependency */,
+				A43C9FAA1E4A634600229FB8 /* PBXTargetDependency */,
 			);
-			name = WatchConTests;
-			productName = WatchConTests;
-			productReference = A43C9F561E4A5F8300229FB8 /* WatchConTests.xctest */;
+			name = "WatchCon-iOSTests";
+			productName = "WatchCon-iOSTests";
+			productReference = A43C9FA71E4A634600229FB8 /* WatchCon-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -149,11 +159,11 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Abdullah Selek";
 				TargetAttributes = {
-					A43C9F4C1E4A5F8200229FB8 = {
+					A43C9F9E1E4A634500229FB8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					A43C9F551E4A5F8300229FB8 = {
+					A43C9FA61E4A634600229FB8 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -171,21 +181,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A43C9F4C1E4A5F8200229FB8 /* WatchCon */,
-				A43C9F551E4A5F8300229FB8 /* WatchConTests */,
+				A43C9F9E1E4A634500229FB8 /* WatchCon-iOS */,
+				A43C9FA61E4A634600229FB8 /* WatchCon-iOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A43C9F4B1E4A5F8200229FB8 /* Resources */ = {
+		A43C9F9D1E4A634500229FB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A43C9F541E4A5F8300229FB8 /* Resources */ = {
+		A43C9FA51E4A634600229FB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,28 +205,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A43C9F481E4A5F8200229FB8 /* Sources */ = {
+		A43C9F9A1E4A634500229FB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A43C9F6A1E4A605000229FB8 /* WatchConSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A43C9F521E4A5F8300229FB8 /* Sources */ = {
+		A43C9FA31E4A634600229FB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A43C9FAD1E4A634600229FB8 /* WatchCon_iOSTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A43C9F591E4A5F8300229FB8 /* PBXTargetDependency */ = {
+		A43C9FAA1E4A634600229FB8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A43C9F4C1E4A5F8200229FB8 /* WatchCon */;
-			targetProxy = A43C9F581E4A5F8300229FB8 /* PBXContainerItemProxy */;
+			target = A43C9F9E1E4A634500229FB8 /* WatchCon-iOS */;
+			targetProxy = A43C9FA91E4A634600229FB8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -317,7 +327,7 @@
 			};
 			name = Release;
 		};
-		A43C9F621E4A5F8300229FB8 /* Debug */ = {
+		A43C9FB11E4A634600229FB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -325,16 +335,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WatchCon/Info.plist;
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.WatchCon;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.WatchCon-iOS";
+				PRODUCT_NAME = WatchCon;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		A43C9F631E4A5F8300229FB8 /* Release */ = {
+		A43C9FB21E4A634600229FB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -342,31 +352,31 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = WatchCon/Info.plist;
+				INFOPLIST_FILE = "Sources/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.WatchCon;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.WatchCon-iOS";
+				PRODUCT_NAME = WatchCon;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		A43C9F651E4A5F8300229FB8 /* Debug */ = {
+		A43C9FB41E4A634600229FB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = WatchConTests/Info.plist;
+				INFOPLIST_FILE = "WatchCon-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.WatchConTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.WatchCon-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		A43C9F661E4A5F8300229FB8 /* Release */ = {
+		A43C9FB51E4A634600229FB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = WatchConTests/Info.plist;
+				INFOPLIST_FILE = "WatchCon-iOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahselek.WatchConTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.WatchCon-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -383,19 +393,19 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A43C9F611E4A5F8300229FB8 /* Build configuration list for PBXNativeTarget "WatchCon" */ = {
+		A43C9FB01E4A634600229FB8 /* Build configuration list for PBXNativeTarget "WatchCon-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A43C9F621E4A5F8300229FB8 /* Debug */,
-				A43C9F631E4A5F8300229FB8 /* Release */,
+				A43C9FB11E4A634600229FB8 /* Debug */,
+				A43C9FB21E4A634600229FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A43C9F641E4A5F8300229FB8 /* Build configuration list for PBXNativeTarget "WatchConTests" */ = {
+		A43C9FB31E4A634600229FB8 /* Build configuration list for PBXNativeTarget "WatchCon-iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A43C9F651E4A5F8300229FB8 /* Debug */,
-				A43C9F661E4A5F8300229FB8 /* Release */,
+				A43C9FB41E4A634600229FB8 /* Debug */,
+				A43C9FB51E4A634600229FB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
