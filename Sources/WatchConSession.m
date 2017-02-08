@@ -32,4 +32,22 @@
     }
 }
 
+#pragma mark - WCSession Delegate
+
+#if defined(__IPHONE_9_3) && __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_9_3
+- (void)session:(WCSession *)session
+activationDidCompleteWithState:(WCSessionActivationState)activationState
+          error:(NSError *)error{
+
+}
+
+- (void)sessionDidBecomeInactive:(WCSession *)session {
+
+}
+
+- (void)sessionDidDeactivate:(WCSession *)session {
+
+}
+#endif
+
 @end
