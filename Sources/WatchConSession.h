@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WatchConSession : NSObject
+@interface WatchConSession : NSObject<WCSessionDelegate>
 
 + (instancetype)sharedInstance;
 

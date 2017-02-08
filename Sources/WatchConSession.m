@@ -8,6 +8,12 @@
 
 #import "WatchConSession.h"
 
+@interface WatchConSession ()
+
+@property (nonatomic, strong) WCSession *session;
+
+@end
+
 @implementation WatchConSession
 
 + (instancetype)sharedInstance {
@@ -17,6 +23,13 @@
         watchConSession = [[WatchConSession alloc] init];
     });
     return watchConSession;
+}
+
+- (instancetype)init {
+    if (self = [super init]) {
+        self.session = [WCSession defaultSession];
+        session.delegate = self;
+    }
 }
 
 @end
