@@ -28,13 +28,14 @@
 - (instancetype)init {
     if (self = [super init]) {
         self.session = [WCSession defaultSession];
-        session.delegate = self;
+        self.session.delegate = self;
     }
+    return self;
 }
 
 - (void)activate {
     if ([WCSession isSupported]) {
-        [session activateSession];
+        [self.session activateSession];
     } else {
         NSLog(@"WatchCon ERROR : WCSession is not supported");
     }
@@ -42,10 +43,10 @@
 
 #pragma mark - WCSession Delegate
 
-#if defined(__IPHONE_9_3) && __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_9_3
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 90300 || __WATCH_OS_VERSION_MAX_ALLOWED >= 20000
 - (void)session:(WCSession *)session
 activationDidCompleteWithState:(WCSessionActivationState)activationState
-          error:(NSError *)error{
+          error:(NSError *)error {
 
 }
 

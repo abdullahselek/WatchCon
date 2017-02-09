@@ -10,6 +10,8 @@
 		A43C9FA81E4A634600229FB8 /* WatchCon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C9F9F1E4A634500229FB8 /* WatchCon.framework */; };
 		A43C9FB81E4A63DC00229FB8 /* WatchCon.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F931E4A62C000229FB8 /* WatchCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A43C9FB91E4A63DC00229FB8 /* WatchConSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F941E4A62C000229FB8 /* WatchConSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47E689D1E4D020B00D71639 /* WatchConSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A43C9F951E4A62C000229FB8 /* WatchConSession.m */; };
+		A47E68A01E4D023000D71639 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47E689F1E4D023000D71639 /* WatchConnectivity.framework */; };
 		A4A221631E4B94F8000E526C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4A221621E4B94F8000E526C /* Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +32,7 @@
 		A43C9F9F1E4A634500229FB8 /* WatchCon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchCon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43C9FA71E4A634600229FB8 /* WatchCon-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchCon-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A43C9FB61E4A639000229FB8 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
+		A47E689F1E4D023000D71639 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		A4A221621E4B94F8000E526C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47E68A01E4D023000D71639 /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +62,7 @@
 				A43C9F911E4A629300229FB8 /* Sources */,
 				A43C9F741E4A61C200229FB8 /* Tests */,
 				A43C9F4E1E4A5F8200229FB8 /* Products */,
+				A47E689E1E4D023000D71639 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +92,14 @@
 				A43C9F951E4A62C000229FB8 /* WatchConSession.m */,
 			);
 			name = Sources;
+			sourceTree = "<group>";
+		};
+		A47E689E1E4D023000D71639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A47E689F1E4D023000D71639 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47E689D1E4D020B00D71639 /* WatchConSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
