@@ -11,5 +11,6 @@
 @interface WatchConSession : NSObject<WCSessionDelegate>
 
 + (instancetype)sharedInstance;
+- (void)activate;
 
 @end

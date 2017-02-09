@@ -32,6 +32,14 @@
     }
 }
 
+- (void)activate {
+    if ([WCSession isSupported]) {
+        [session activateSession];
+    } else {
+        NSLog(@"WatchCon ERROR : WCSession is not supported");
+    }
+}
+
 #pragma mark - WCSession Delegate
 
 #if defined(__IPHONE_9_3) && __IPHONE_OS_VERSION_MIN_REQUIRED >= __IPHONE_9_3
