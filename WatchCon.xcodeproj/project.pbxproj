@@ -15,6 +15,7 @@
 		A47E689D1E4D020B00D71639 /* WatchConSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A43C9F951E4A62C000229FB8 /* WatchConSession.m */; };
 		A47E68A01E4D023000D71639 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47E689F1E4D023000D71639 /* WatchConnectivity.framework */; };
 		A4A221631E4B94F8000E526C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4A221621E4B94F8000E526C /* Info.plist */; };
+		A4F109571E4E49B30053C125 /* WatchConSessionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F109561E4E49B30053C125 /* WatchConSessionTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A43C9FB61E4A639000229FB8 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
 		A47E689F1E4D023000D71639 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		A4A221621E4B94F8000E526C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
+		A4F109561E4E49B30053C125 /* WatchConSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchConSessionTests.m; path = Tests/WatchConSessionTests.m; sourceTree = "<group>"; };
 		BCF5DBEDAE4A1F560C1BCA5C /* Pods-WatchCon-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchCon-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchCon-iOS/Pods-WatchCon-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EDEC7255FA5FBCD4A90E524F /* Pods-WatchCon-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchCon-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchCon-iOSTests/Pods-WatchCon-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				A4A221621E4B94F8000E526C /* Info.plist */,
+				A4F109561E4E49B30053C125 /* WatchConSessionTests.m */,
 			);
 			name = Tests;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4F109571E4E49B30053C125 /* WatchConSessionTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
