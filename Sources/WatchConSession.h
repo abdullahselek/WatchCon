@@ -9,11 +9,13 @@
 #import <Foundation/Foundation.h>
 #import <WatchConnectivity/WatchConnectivity.h>
 
+NS_ASSUME_NONNULL_BEGIN
+
 @protocol WatchConSessionDelegate <NSObject>
 
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 90300 || __WATCH_OS_VERSION_MAX_ALLOWED >= 20000
 - (void)activationDidCompleteWithState:(WCSessionActivationState)activationState
-                                 error:(NSError *)error;
+                                 error:(nullable NSError *)error;
 - (void)sessionDidBecomeInactive:(WCSession *)session;
 - (void)sessionDidDeactivate:(WCSession *)session;
 #endif
@@ -22,7 +24,11 @@
 
 @interface WatchConSession : NSObject<WCSessionDelegate>
 
+@property (nonatomic, weak, nullable) id <WatchConSessionDelegate> delegate;
+
 + (instancetype)sharedInstance;
 - (void)activate;
 
 @end
+
+NS_ASSUME_NONNULL_END
