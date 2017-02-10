@@ -47,15 +47,21 @@
 - (void)session:(WCSession *)session
 activationDidCompleteWithState:(WCSessionActivationState)activationState
           error:(NSError *)error {
-
+    if ([self.delegate respondsToSelector:@selector(activationDidCompleteWithState:error:)]) {
+        [self.delegate activationDidCompleteWithState:activationState error:error];
+    }
 }
 
 - (void)sessionDidBecomeInactive:(WCSession *)session {
-
+    if ([self.delegate respondsToSelector:@selector(sessionDidBecomeInactive:)]) {
+        [self.delegate sessionDidBecomeInactive:session];
+    }
 }
 
 - (void)sessionDidDeactivate:(WCSession *)session {
-
+    if ([self.delegate respondsToSelector:@selector(sessionDidDeactivate:)]) {
+        [self.delegate sessionDidDeactivate:session];
+    }
 }
 #endif
 
