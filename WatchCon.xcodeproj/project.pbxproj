@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02CEE29589A1078A7AF1B464 /* Pods_WatchCon_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CFE543A989C8A7881A822C0 /* Pods_WatchCon_iOS.framework */; };
+		34D741B9B16322468B7C0DFA /* Pods_WatchCon_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1785D5EAB08998F069541C58 /* Pods_WatchCon_iOSTests.framework */; };
 		A43C9FA81E4A634600229FB8 /* WatchCon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A43C9F9F1E4A634500229FB8 /* WatchCon.framework */; };
 		A43C9FB81E4A63DC00229FB8 /* WatchCon.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F931E4A62C000229FB8 /* WatchCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A43C9FB91E4A63DC00229FB8 /* WatchConSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F941E4A62C000229FB8 /* WatchConSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CFE543A989C8A7881A822C0 /* Pods_WatchCon_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchCon_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13082680E780AA60F4F22605 /* Pods-WatchCon-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchCon-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchCon-iOSTests/Pods-WatchCon-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1785D5EAB08998F069541C58 /* Pods_WatchCon_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchCon_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B816C5D49281EA35052549F /* Pods-WatchCon-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchCon-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchCon-iOS/Pods-WatchCon-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		A43C9F931E4A62C000229FB8 /* WatchCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchCon.h; path = Sources/WatchCon.h; sourceTree = "<group>"; };
 		A43C9F941E4A62C000229FB8 /* WatchConSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchConSession.h; path = Sources/WatchConSession.h; sourceTree = "<group>"; };
 		A43C9F951E4A62C000229FB8 /* WatchConSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchConSession.m; path = Sources/WatchConSession.m; sourceTree = "<group>"; };
@@ -34,6 +40,8 @@
 		A43C9FB61E4A639000229FB8 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
 		A47E689F1E4D023000D71639 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		A4A221621E4B94F8000E526C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
+		BCF5DBEDAE4A1F560C1BCA5C /* Pods-WatchCon-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchCon-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchCon-iOS/Pods-WatchCon-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EDEC7255FA5FBCD4A90E524F /* Pods-WatchCon-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchCon-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchCon-iOSTests/Pods-WatchCon-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A47E68A01E4D023000D71639 /* WatchConnectivity.framework in Frameworks */,
+				02CEE29589A1078A7AF1B464 /* Pods_WatchCon_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +59,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				A43C9FA81E4A634600229FB8 /* WatchCon.framework in Frameworks */,
+				34D741B9B16322468B7C0DFA /* Pods_WatchCon_iOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E5AE31C1B28C924B3C376E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCF5DBEDAE4A1F560C1BCA5C /* Pods-WatchCon-iOS.debug.xcconfig */,
+				4B816C5D49281EA35052549F /* Pods-WatchCon-iOS.release.xcconfig */,
+				13082680E780AA60F4F22605 /* Pods-WatchCon-iOSTests.debug.xcconfig */,
+				EDEC7255FA5FBCD4A90E524F /* Pods-WatchCon-iOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A43C9F431E4A5F8200229FB8 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +84,7 @@
 				A43C9F741E4A61C200229FB8 /* Tests */,
 				A43C9F4E1E4A5F8200229FB8 /* Products */,
 				A47E689E1E4D023000D71639 /* Frameworks */,
+				9E5AE31C1B28C924B3C376E5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				A47E689F1E4D023000D71639 /* WatchConnectivity.framework */,
+				0CFE543A989C8A7881A822C0 /* Pods_WatchCon_iOS.framework */,
+				1785D5EAB08998F069541C58 /* Pods_WatchCon_iOSTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,10 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43C9FB01E4A634600229FB8 /* Build configuration list for PBXNativeTarget "WatchCon-iOS" */;
 			buildPhases = (
+				B368033DEB60676722CF9E24 /* [CP] Check Pods Manifest.lock */,
 				A43C9F9A1E4A634500229FB8 /* Sources */,
 				A43C9F9B1E4A634500229FB8 /* Frameworks */,
 				A43C9F9C1E4A634500229FB8 /* Headers */,
 				A43C9F9D1E4A634500229FB8 /* Resources */,
+				D39EB493092ED7450D657BFC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A43C9FB31E4A634600229FB8 /* Build configuration list for PBXNativeTarget "WatchCon-iOSTests" */;
 			buildPhases = (
+				31B8C8FEE026AEE3C9291125 /* [CP] Check Pods Manifest.lock */,
 				A43C9FA31E4A634600229FB8 /* Sources */,
 				A43C9FA41E4A634600229FB8 /* Frameworks */,
 				A43C9FA51E4A634600229FB8 /* Resources */,
+				29171AFF8315D4A51FC4A8D0 /* [CP] Embed Pods Frameworks */,
+				89047E1278C750C4DB6F746E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +236,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29171AFF8315D4A51FC4A8D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchCon-iOSTests/Pods-WatchCon-iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31B8C8FEE026AEE3C9291125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89047E1278C750C4DB6F746E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchCon-iOSTests/Pods-WatchCon-iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B368033DEB60676722CF9E24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D39EB493092ED7450D657BFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchCon-iOS/Pods-WatchCon-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A43C9F9A1E4A634500229FB8 /* Sources */ = {
@@ -333,6 +440,7 @@
 		};
 		A43C9FB11E4A634600229FB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF5DBEDAE4A1F560C1BCA5C /* Pods-WatchCon-iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -350,6 +458,7 @@
 		};
 		A43C9FB21E4A634600229FB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B816C5D49281EA35052549F /* Pods-WatchCon-iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -367,6 +476,7 @@
 		};
 		A43C9FB41E4A634600229FB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13082680E780AA60F4F22605 /* Pods-WatchCon-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -377,6 +487,7 @@
 		};
 		A43C9FB51E4A634600229FB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDEC7255FA5FBCD4A90E524F /* Pods-WatchCon-iOSTests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
