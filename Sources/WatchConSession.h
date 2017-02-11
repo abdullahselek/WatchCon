@@ -13,12 +13,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol WatchConSessionDelegate <NSObject>
 
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 90300 || __WATCH_OS_VERSION_MAX_ALLOWED >= 20000
 - (void)activationDidCompleteWithState:(WCSessionActivationState)activationState
-                                 error:(nullable NSError *)error;
-- (void)sessionDidBecomeInactive:(WCSession *)session;
-- (void)sessionDidDeactivate:(WCSession *)session;
-#endif
+                                 error:(nullable NSError *)error __IOS_AVAILABLE(9.3) __WATCHOS_AVAILABLE(2.2);
+- (void)sessionDidBecomeInactive:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
+- (void)sessionDidDeactivate:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
 
 @end
 

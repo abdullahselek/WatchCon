@@ -43,29 +43,27 @@
 
 #pragma mark - WCSession Delegate
 
-#if __IPHONE_OS_VERSION_MAX_ALLOWED >= 90300 || __WATCH_OS_VERSION_MAX_ALLOWED >= 20000
 - (void)session:(WCSession *)session
 activationDidCompleteWithState:(WCSessionActivationState)activationState
-          error:(NSError *)error {
+          error:(NSError *)error __IOS_AVAILABLE(9.3) __WATCHOS_AVAILABLE(2.2) {
     if ([self.delegate respondsToSelector:@selector(activationDidCompleteWithState:error:)]) {
         [self.delegate activationDidCompleteWithState:activationState error:error];
     }
 }
 
-- (void)sessionDidBecomeInactive:(WCSession *)session {
+- (void)sessionDidBecomeInactive:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE {
     if ([self.delegate respondsToSelector:@selector(sessionDidBecomeInactive:)]) {
         [self.delegate sessionDidBecomeInactive:session];
     }
 }
 
-- (void)sessionDidDeactivate:(WCSession *)session {
+- (void)sessionDidDeactivate:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE {
     if ([self.delegate respondsToSelector:@selector(sessionDidDeactivate:)]) {
         [self.delegate sessionDidDeactivate:session];
     }
 }
-#endif
 
-- (void)sessionWatchStateDidChange:(WCSession *)session {
+- (void)sessionWatchStateDidChange:(WCSession *)session __WATCHOS_UNAVAILABLE {
 
 }
 
