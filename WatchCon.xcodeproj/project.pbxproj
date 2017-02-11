@@ -13,6 +13,10 @@
 		A43C9FB81E4A63DC00229FB8 /* WatchCon.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F931E4A62C000229FB8 /* WatchCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A43C9FB91E4A63DC00229FB8 /* WatchConSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F941E4A62C000229FB8 /* WatchConSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A47A93491E4F26FA009938A7 /* Info-watchOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = A47A93481E4F26FA009938A7 /* Info-watchOS.plist */; };
+		A47A934A1E4F2ADA009938A7 /* WatchCon.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F931E4A62C000229FB8 /* WatchCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47A934B1E4F2ADA009938A7 /* WatchConSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A43C9F941E4A62C000229FB8 /* WatchConSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47A934C1E4F2AE2009938A7 /* WatchConSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A43C9F951E4A62C000229FB8 /* WatchConSession.m */; };
+		A47A934E1E4F2AFA009938A7 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47A934D1E4F2AFA009938A7 /* WatchConnectivity.framework */; };
 		A47E689D1E4D020B00D71639 /* WatchConSession.m in Sources */ = {isa = PBXBuildFile; fileRef = A43C9F951E4A62C000229FB8 /* WatchConSession.m */; };
 		A47E68A01E4D023000D71639 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47E689F1E4D023000D71639 /* WatchConnectivity.framework */; };
 		A4A221631E4B94F8000E526C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4A221621E4B94F8000E526C /* Info.plist */; };
@@ -42,6 +46,7 @@
 		A43C9FB61E4A639000229FB8 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-iOS.plist"; path = "Sources/Info-iOS.plist"; sourceTree = "<group>"; };
 		A47A93401E4F26C6009938A7 /* WatchCon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WatchCon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A47A93481E4F26FA009938A7 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Info-watchOS.plist"; path = "Sources/Info-watchOS.plist"; sourceTree = "<group>"; };
+		A47A934D1E4F2AFA009938A7 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		A47E689F1E4D023000D71639 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		A4A221621E4B94F8000E526C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Tests/Info.plist; sourceTree = "<group>"; };
 		A4F109561E4E49B30053C125 /* WatchConSessionTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchConSessionTests.m; path = Tests/WatchConSessionTests.m; sourceTree = "<group>"; };
@@ -72,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47A934E1E4F2AFA009938A7 /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +140,7 @@
 		A47E689E1E4D023000D71639 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A47A934D1E4F2AFA009938A7 /* WatchConnectivity.framework */,
 				A47E689F1E4D023000D71639 /* WatchConnectivity.framework */,
 				0CFE543A989C8A7881A822C0 /* Pods_WatchCon_iOS.framework */,
 				1785D5EAB08998F069541C58 /* Pods_WatchCon_iOSTests.framework */,
@@ -157,6 +164,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47A934A1E4F2ADA009938A7 /* WatchCon.h in Headers */,
+				A47A934B1E4F2ADA009938A7 /* WatchConSession.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47A934C1E4F2AE2009938A7 /* WatchConSession.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +524,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.WatchCon-iOS";
 				PRODUCT_NAME = WatchCon;
 				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -532,6 +543,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.WatchCon-iOS";
 				PRODUCT_NAME = WatchCon;
 				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
