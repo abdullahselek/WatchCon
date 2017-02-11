@@ -5,6 +5,9 @@
       location = "container:WatchCon.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Sample/WatchOS-Sample/WatchOS-Sample.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
