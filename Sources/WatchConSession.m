@@ -65,4 +65,12 @@ activationDidCompleteWithState:(WCSessionActivationState)activationState
 }
 #endif
 
+- (void)sessionWatchStateDidChange:(WCSession *)session {
+
+}
+
+- (void)sessionReachabilityDidChange:(WCSession *)session {
+
+}
+
 @end
