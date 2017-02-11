@@ -1,0 +1,6 @@
+framework module WatchCon {
+  umbrella header "WatchCon-umbrella.h"
+
+  export *
+  module * { export * }
+}

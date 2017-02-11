@@ -1,7 +1,11 @@
 platform :ios, '9.0'
 
+workspace 'WatchCon.xcworkspace'
+
 target 'WatchCon-iOS' do
-  use_frameworks!
+	platform :ios, '9.0'
+	project 'WatchCon.xcodeproj'
+	use_frameworks!
 
   target 'WatchCon-iOSTests' do
     inherit! :search_paths
@@ -10,4 +14,15 @@ target 'WatchCon-iOS' do
     pod 'Expecta', '~> 1.0'
   end
 
+end
+
+def product_pods
+	pod 'WatchCon', :path => '.'
+end
+
+target 'WatchOS-Sample' do
+	project 'Sample/WatchOS-Sample/WatchOS-Sample.xcodeproj'
+	use_frameworks!
+    inherit! :search_paths
+    product_pods
 end
