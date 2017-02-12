@@ -21,6 +21,8 @@
 		A40B0D141E4F21D100489823 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A40B0D131E4F21D100489823 /* ExtensionDelegate.m */; };
 		A40B0D171E4F21D100489823 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A40B0D161E4F21D100489823 /* NotificationController.m */; };
 		A40B0D191E4F21D100489823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40B0D181E4F21D100489823 /* Assets.xcassets */; };
+		A41669C21E50F07800538AC9 /* WatchCon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41669C11E50F07800538AC9 /* WatchCon.framework */; };
+		A41669C31E50F07800538AC9 /* WatchCon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A41669C11E50F07800538AC9 /* WatchCon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,17 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A41669C41E50F07800538AC9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A41669C31E50F07800538AC9 /* WatchCon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A4F03C051E50EE24003F14E4 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -101,6 +114,7 @@
 		A40B0D161E4F21D100489823 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
 		A40B0D181E4F21D100489823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A40B0D1A1E4F21D100489823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41669C11E50F07800538AC9 /* WatchCon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WatchCon.framework; sourceTree = "<group>"; };
 		B370A683B6A58332E87C4483 /* Pods-WatchOS-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchOS-Sample.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-WatchOS-Sample/Pods-WatchOS-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		D50A34330F2AC8A8AC5E33B8 /* Pods_WatchOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchOS_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -117,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41669C21E50F07800538AC9 /* WatchCon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 		A40B0CD91E4F21D100489823 = {
 			isa = PBXGroup;
 			children = (
+				A41669C11E50F07800538AC9 /* WatchCon.framework */,
 				A40B0CE41E4F21D100489823 /* WatchOS-Sample */,
 				A40B0CFD1E4F21D100489823 /* WatchOS-Sample WatchKit App */,
 				A40B0D0C1E4F21D100489823 /* WatchOS-Sample WatchKit Extension */,
@@ -275,6 +291,7 @@
 				A40B0D041E4F21D100489823 /* Sources */,
 				A40B0D051E4F21D100489823 /* Frameworks */,
 				A40B0D061E4F21D100489823 /* Resources */,
+				A41669C41E50F07800538AC9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -516,6 +533,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "WatchOS-Sample WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.WatchOS-Sample.watchkitapp.watchkitextension";
@@ -531,6 +552,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "WatchOS-Sample WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.abdullahselek.WatchOS-Sample.watchkitapp.watchkitextension";

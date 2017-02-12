@@ -27,6 +27,13 @@
     [super willActivate];
 }
 
+#pragma mark - WatchConSession Delegate
+
+- (void)activationDidCompleteWithState:(WCSessionActivationState)activationState
+                                 error:(nullable NSError *)error{
+    
+}
+
 - (void)didDeactivate {
     // This method is called when watch view controller is no longer visible
     [super didDeactivate];
