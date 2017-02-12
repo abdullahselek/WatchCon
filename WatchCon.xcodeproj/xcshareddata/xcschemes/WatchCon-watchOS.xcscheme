@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A47A933F1E4F26C6009938A7"
-               BuildableName = "WatchCon-watchOS.framework"
+               BuildableName = "WatchCon.framework"
                BlueprintName = "WatchCon-watchOS"
                ReferencedContainer = "container:WatchCon.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A47A933F1E4F26C6009938A7"
-            BuildableName = "WatchCon-watchOS.framework"
+            BuildableName = "WatchCon.framework"
             BlueprintName = "WatchCon-watchOS"
             ReferencedContainer = "container:WatchCon.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A47A933F1E4F26C6009938A7"
-            BuildableName = "WatchCon-watchOS.framework"
+            BuildableName = "WatchCon.framework"
             BlueprintName = "WatchCon-watchOS"
             ReferencedContainer = "container:WatchCon.xcodeproj">
          </BuildableReference>

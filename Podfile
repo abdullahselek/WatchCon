@@ -15,14 +15,3 @@ target 'WatchCon-iOS' do
   end
 
 end
-
-def product_pods
-	pod 'WatchCon', :path => '.'
-end
-
-target 'WatchOS-Sample' do
-	project 'Sample/WatchOS-Sample/WatchOS-Sample.xcodeproj'
-	use_frameworks!
-    inherit! :search_paths
-    product_pods
-end

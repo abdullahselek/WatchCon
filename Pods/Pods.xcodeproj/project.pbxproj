@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01DCF09A8BEB733D0DB7805578642F06 /* Pods-WatchCon-iOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1587AA30339EEF59868DE82D443DA4F /* Pods-WatchCon-iOSTests-dummy.m */; };
+		01DCF09A8BEB733D0DB7805578642F06 /* Pods-WatchCon-iOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A31522A2571F9AAF0C49BAF8A6E1EDB /* Pods-WatchCon-iOSTests-dummy.m */; };
 		01F278A54C85C2C865DDAD4090C559B6 /* EXPDoubleTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB2C3457E86A42BD1A802783A073B61 /* EXPDoubleTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		01F7D55919C59833456188558FE8D7FA /* OCMExpectationRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D07D99C6D16BC479FD45556F92F48F /* OCMExpectationRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0288687DE6021878B7F2C11F9427AC88 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE37694B472E090550E40ABF3E42BEB /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,7 +15,7 @@
 		031662C283DA3F607B42C77F149174F7 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9340E625669C0791F123181D06780733 /* NSBundle+CurrentTestBundle.swift */; };
 		04A81970D9ADE5764CDAE74D92B7D94F /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A48CC6EAABBDF0E6F6B8CED5F52779 /* URL+FileName.swift */; };
 		0AEAD2BEB61CCA26BB0798F2E527BF84 /* OCMRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5125805347AA4652B8EA7E07FEE3942B /* OCMRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0B11B174B2ADC6056A89A3EBE624151D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7D93E17AA718245BCE8316FC2E662C /* XCTest.framework */; };
+		0B11B174B2ADC6056A89A3EBE624151D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */; };
 		0C17576B806EEBAF2509B99F6B108000 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A20CA22E81599F1B015F2149ED5A4C1 /* Quick-dummy.m */; };
 		0D183650A2D88CB6DAD886030A3A2B62 /* OCMBoxedReturnValueProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A1222250ED0CA6249CB2A643DC0CA1 /* OCMBoxedReturnValueProvider.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0E32A8C1B69250199C8EC0794CF3A3B6 /* OCMStubRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = A8C1BC20290ABE4597547A9CC9962262 /* OCMStubRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -31,42 +31,35 @@
 		15081C3A4D626D9631A9594847D2E2A6 /* OCMFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 472888B971808D6DA07CC922157110B9 /* OCMFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1583087CE691D66E050A0AE7C07296BD /* OCMNotificationPoster.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9E0CA8C7B424CA1B03021A0A802BF2 /* OCMNotificationPoster.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		15FEDB8A315321D48BC7E535429ADB48 /* OCMInvocationStub.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B751BB933F45992B279B367F89DBF93 /* OCMInvocationStub.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		192D54D8AAEF3D11B14E61816B554292 /* Pods-WatchOS-Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E6E130951A2A99CE1C308D6B2F4A98 /* Pods-WatchOS-Sample-dummy.m */; };
 		1D53147F49F02FC693C33D8526049C90 /* OCMIndirectReturnValueProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3988244B13B52905C7D6A7925C8EDCD6 /* OCMIndirectReturnValueProvider.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5D0597DB9823B7502D03F8F2478C5B /* ExpectaSupport.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1DD2C9A900B7D7B5F3862D15C1A8AD7E /* NSValue+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8DF8C62B6B578C416B0DB88262D991 /* NSValue+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1E39DFFD1C210AE6FC2D6505103CEC1F /* WatchConSession.h in Headers */ = {isa = PBXBuildFile; fileRef = CDBE1349D7541BAB450E1D3E0D429656 /* WatchConSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B4E59CAC84ABA9E902C3F889718431CE /* EXPBlockDefinedMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24394811C369F117D75337F436C81222 /* OCMock-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 393DE41D8DD31C64722C9724FF10A280 /* OCMock-dummy.m */; };
 		285C6F6BE59E632CB219CD98B4EDC1AA /* EXPMatchers+endWith.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3CDAC288F1FDC784D50A2599335B74 /* EXPMatchers+endWith.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		28B5E9BDDC2F53432C7D7D244837F1B5 /* OCClassMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DA5A83D7D44F2C08E5B43108FD8777F /* OCClassMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2916D75F69E777954F5BF46AE63C52C0 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC3E02854B4748FE49F6D95A8EE9BFB /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2F0FEB9FED6EDBEB7D8E88F1B76AF9C2 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7057BF8E79FC03E43FB2252FC09BA93 /* World+DSL.swift */; };
-		2F583BEAD7932774AF250070CC8B13F5 /* WatchConSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 530D74650E4CFEDB3A2B31A7057F1CD8 /* WatchConSession.m */; };
-		322D721F87A52966971A5919026260CD /* WatchCon.h in Headers */ = {isa = PBXBuildFile; fileRef = 217B89EA07FC400AE9F23A53887B4F6E /* WatchCon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		353759005B92EEC29E4B15765C4D3EEB /* OCPartialMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 8049F78AD188D110A6228A5C6689C1A7 /* OCPartialMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		35A1FE4A8E51328808CC3A2C7EAAC3FC /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438ECFDE3A0E1F0041B78D27293765F /* QuickSelectedTestSuiteBuilder.swift */; };
 		361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */ = {isa = PBXBuildFile; fileRef = 86EDC90B5EF3B557A14BCB635F1C55FD /* EXPMatchers+raise.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		38D5085895B3757AF0DCED078EF8B145 /* OCMRealObjectForwarder.h in Headers */ = {isa = PBXBuildFile; fileRef = E85DE7B00AF6949085AFCBF632566FBA /* OCMRealObjectForwarder.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = AE0D1380960BDE08254E41DEB058B805 /* EXPDoubleTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A41CB14CF306C92432E4E0BEDFC83FC /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AC175F02200238F52863F76C7D47AE /* World.swift */; };
-		3D1C615E741E95E2199E36C47AFE618A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CDD6884C0C23C25BCD3057AABAA71 /* Foundation.framework */; };
+		3D1C615E741E95E2199E36C47AFE618A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		3D1CB7A4AB9B00BC95F06CF858F18BCE /* OCMFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B921637D849D0101F44147C959F73324 /* OCMFunctions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3EB6A5EAA8A7D5AC62FCA42C6375A4F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CDD6884C0C23C25BCD3057AABAA71 /* Foundation.framework */; };
 		3F3A91FED7FE1CEC1FFEC5AB9B2BEE74 /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585377BE91EE53BC5B36A96C0D2EB6BB /* Callsite.swift */; };
 		41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D21468D15AF822161B69F15202C8A9 /* EXPMatchers+beKindOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = D831DC0942171B60E2E0FBF8269BBFAB /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4552366371FE1ACA9600897C31D70E4C /* OCMObserverRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = A873B3B31793A5AA01432D3380EE897B /* OCMObserverRecorder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		45C5A607D652A275B1733E0E58068171 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99F38A1BCB45D419C4CA264BFFFE2D8F /* WatchConnectivity.framework */; };
 		45E91E6E79D1EEACF0F7A668E3D9A89D /* OCProtocolMockObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB4527342E2BC161651E9B515CD9C92 /* OCProtocolMockObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = E410B8C33545D8BD541E63935A683BD3 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2804B8CF232874C86C0D17EB6D7113DE /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4918F4E751A09C0AED67C771CE60B0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CDD6884C0C23C25BCD3057AABAA71 /* Foundation.framework */; };
+		4918F4E751A09C0AED67C771CE60B0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */ = {isa = PBXBuildFile; fileRef = 4117241450B80B541FE0E6A81621CF94 /* EXPFloatTuple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E8250BDB662F542F9294F6941333373 /* OCMPassByRefSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = ACBBA14211B56C83D70FAE0E59347D4D /* OCMPassByRefSetter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4F02F5DD4EC7C3AFD1EC38E2F55B0C4A /* OCMBlockArgCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = F2964D5FD159ED26F82E0666B498CA81 /* OCMBlockArgCaller.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		4F4A7459D96FDABBAB640D1D1B1BB42E /* OCMNotificationPoster.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E31FE3E16AD2F86EEBD6F540D60858 /* OCMNotificationPoster.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		4F7D63AB1C99914EE82759CC2CCCBC0B /* WatchCon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DED4CA6F6655C4517735DBEB8E8C6F7A /* WatchCon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50263276979072E0A69AEA29F130CF10 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = B6116A1C2732D9533A6126515984D904 /* QuickSpec.m */; };
 		5037A042D2012439DEC932F10FC51B95 /* NSMethodSignature+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD41E55E4D9A38909F82E09D4D2AB75 /* NSMethodSignature+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		508B6D0572C0C3B4A3E019B814595D4A /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA367D9520542E4E72CA4F1200D7BD6 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -75,20 +68,20 @@
 		51FCC9EDD6B60BF63B5EF7CAC94CCF23 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 09EAD3BDA00BD6854FCBD97374D5D047 /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		543D9D71DD92175A9CC5F0831CF2A028 /* OCPartialMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 793964B73A0A47EFA5495B524D753FB9 /* OCPartialMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		54471D429F63760B736E52506A0B861B /* OCMInvocationMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D94E6873F9D3AEDE0240C9F4570849 /* OCMInvocationMatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		56EC721EA1154BD7E1CE9FE5135BC71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CDD6884C0C23C25BCD3057AABAA71 /* Foundation.framework */; };
+		56EC721EA1154BD7E1CE9FE5135BC71D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		58FB50DB554239F854ECBEC3C86F3A92 /* OCMRealObjectForwarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 89171CC8307B64E4E7AF7595642D176E /* OCMRealObjectForwarder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 142B3351A0FEAECA702C3C2ED32A408D /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59578DBAB2520015A65B5B160722A370 /* NSValue+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 320658CD179E1A00CFF710804C158FAE /* NSValue+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		597E5A323FD0306B81C3F7E9C8E5580D /* EXPMatchers+match.h in Headers */ = {isa = PBXBuildFile; fileRef = 22066EA0F6AA5A425A448BE152E1364A /* EXPMatchers+match.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D4700451D6C9DFC6D5FFB86671EA2AC /* EXPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F48052C53094D8086EE688433F46BEB3 /* EXPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B5A9BEB7E6ABD6474060C14903811D /* EXPFloatTuple.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		5E57AC4697B7332A42E2BCFFEF61CAE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CDD6884C0C23C25BCD3057AABAA71 /* Foundation.framework */; };
+		5E57AC4697B7332A42E2BCFFEF61CAE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		5F160713BF583BCBC136CE95E62F9C2F /* EXPMatchers+beInstanceOf.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8510C2B072780EF9EB285AD0E08DD3 /* EXPMatchers+beInstanceOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		601D369711950444441AC32E75DEF63B /* Pods-WatchCon-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4332A4C8C6FE90DA1BB39F31B4B485A6 /* Pods-WatchCon-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		601D369711950444441AC32E75DEF63B /* Pods-WatchCon-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 367C256955EB70E73972A8D3FA5D5FFD /* Pods-WatchCon-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C7A0B8250FC3B1996F16C6BF0CBD613B /* EXPUnsupportedObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64BE9EF2C3B8FB681089D118C9298589 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A891A8FAA144336B650735EA776E2533 /* Configuration.swift */; };
 		64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C9961A5519E7472DCC969B532BDA61 /* EXPMatchers+beNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AB367EF8F4DB4B536255B5FEFB08715 /* Pods-WatchCon-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7FC23F2178AE8FB2A47660DAC1ACF8 /* Pods-WatchCon-iOS-dummy.m */; };
+		6AB367EF8F4DB4B536255B5FEFB08715 /* Pods-WatchCon-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 63DF002B65E242C42F99721DCD55C74F /* Pods-WatchCon-iOS-dummy.m */; };
 		6CB0DA35B56C1460656A90F4E99E6497 /* World+DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = B12AF398D98545421B7C6DA800221744 /* World+DSL.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6D3926D5B5F7D0C62E5D0B4296AFBCD7 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FFC6F4B2C0B079D5103118B3EF6A56 /* Filter.swift */; };
 		6DEAD4CD0FF9467DA3FD3F22816418C6 /* OCMArgAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DF5BFF16243281A6D9A0B2CE49898137 /* OCMArgAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -102,11 +95,9 @@
 		7E81176499F06E523CE3039B08AB5051 /* EXPMatchers+beGreaterThan.h in Headers */ = {isa = PBXBuildFile; fileRef = D1E4FBF3ADAF3FFA968C532F091A8255 /* EXPMatchers+beGreaterThan.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92D62880C55F4BD96081E94FDA404697 /* EXPMatchers+beFalsy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		82558AE4441757075270A8A260B34EC9 /* OCObserverMockObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3B79B17179206A4EDF156180F985BF /* OCObserverMockObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		83619FCB5363AB40291422BA37F4652E /* WatchCon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E744F72DAF3C9D420384AADE4ED93089 /* WatchCon-dummy.m */; };
 		86FF90618135B7C9032BC7075343F236 /* OCMBlockArgCaller.h in Headers */ = {isa = PBXBuildFile; fileRef = E3360AAB042652EB0B0AEDC7D503E5BA /* OCMBlockArgCaller.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */ = {isa = PBXBuildFile; fileRef = 172D19F14B5A94EE9FC296B6277CCBFA /* EXPMatchers+raiseWithReason.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		87AE70A44BD8E8676B2A3EDB6E334138 /* EXPMatchers+endWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D815BCF6C076354A17702E3CC7DB0B8 /* EXPMatchers+endWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8805F4E40FE412ABEF68258EF4CCAFB6 /* Pods-WatchOS-Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1566AF1547423653A20C0734DDC5272 /* Pods-WatchOS-Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 358366680FDEB2163EA8E07280A8CA0E /* ExpectaObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2885E92F727085956755B6A65406987F /* EXPMatchers+beIdenticalTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C14546CF091E0A5B1F0F37F576990B8 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A360F58795BED58DB29043FB24E4D6F /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -156,7 +147,7 @@
 		BA2273C975AEA5105A94BB60BEF2123E /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A0AAB0139701E26D7852DDD300C69F /* ExampleMetadata.swift */; };
 		BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 205EC28D28E7F65F2B10BFF2C66301DC /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = A78D9A42FF89938313A400BDC02E3336 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		BCB5D6EF8629B2499B18B212EE845B5E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC7D93E17AA718245BCE8316FC2E662C /* XCTest.framework */; };
+		BCB5D6EF8629B2499B18B212EE845B5E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */; };
 		BD181F7E8C0BB325B051DA9F2FBD71BC /* NSMethodSignature+OCMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A15D891B601017935FF8FEAFD0D082CB /* NSMethodSignature+OCMAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */ = {isa = PBXBuildFile; fileRef = AD502518788B01E387925BB104440DD1 /* EXPExpect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D889F8168430D9263DF37C89B55F7CC /* EXPMatchers+beGreaterThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -165,7 +156,7 @@
 		C7E073C7F1DE63AF4B88B3323F4C3A39 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5A0C039DBCA8BF734D24F1E6B2B09D /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA8D1CCBBFB65654CB4E73DCA750A8BE /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE23402B3530F2247C6D3E1F846D89 /* XCTestSuite+QuickTestSuiteBuilder.m */; };
 		CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF93939107B351B3334718BF80B86CA /* EXPMatchers+beSubclassOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC2C1A15C25533A85E0EF848B23F702A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CDD6884C0C23C25BCD3057AABAA71 /* Foundation.framework */; };
+		CC2C1A15C25533A85E0EF848B23F702A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */; };
 		CD22121B77F0F8E2B6A58AF6226038C2 /* EXPMatchers+beIdenticalTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 673DC65B715FE539CAAD3E01CA0C2408 /* EXPMatchers+beIdenticalTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CD66900813CFE317343F5A4053AE73EC /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C5D0313F1B4E6B33F4EEB9C58D2E96 /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE7E4C141657D23213C7FAE616D7FA75 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = FA462DE965EEDE79337CFB9F8B14371E /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -173,7 +164,6 @@
 		D10E1D6095AAAEC2F97606E77133C29F /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8FBD710EF14A09E5EF29A970E131C /* ExampleHooks.swift */; };
 		D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 221CD8D4E3AEECBC5A55DFE304C733DD /* Expecta-dummy.m */; };
 		D5F26F2F867A30EC353C5BAA186A454F /* World.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D3DEB6201241EB10F83141D0F27199 /* World.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D981E3F6260CB6EC77180FA572435A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CDD6884C0C23C25BCD3057AABAA71 /* Foundation.framework */; };
 		D9C7A57A574090442C8631BA856B1599 /* OCMMacroState.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3A364636C18378B8F199EFA8F966F7 /* OCMMacroState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = E759F40E1F236A9C5CC7A9E8C65D1F34 /* NSObject+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0D4BDD7B7A6B3089AC6C7BC2601D77 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -198,7 +188,7 @@
 		F9CC54A5DA26CBDFC153B03133BECDAD /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26561A2CC6A40428B663E78D45441ACA /* DSL.swift */; };
 		FAB7A1E7E1414DC657BA79D07135E15B /* OCMock.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A98D798EB73264AA372D8AEA5E7CEF /* OCMock.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB18D7ABC144CB2F342107C18A41EBCF /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDE2735C7CEC1A6E0FA0F417EB0A817 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBAB7672F5107D99C0EECE765CEF1D93 /* Pods-WatchCon-iOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9671ADC61DA41224D1A327AF9602A1 /* Pods-WatchCon-iOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBAB7672F5107D99C0EECE765CEF1D93 /* Pods-WatchCon-iOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 473332E0B5E519BF6D87D7B2C76A8FA4 /* Pods-WatchCon-iOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBD596B095C58C7A3AA647CAB7802226 /* NSInvocation+OCMAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F63FAB135A55256DC3D17A39365A1E9 /* NSInvocation+OCMAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2AC9F45F5980B71A8BA4C7A8BD9C35 /* EXPMatchers+beInTheRangeOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */ = {isa = PBXBuildFile; fileRef = E248D68DFC2B06D29B3A01310B17E350 /* EXPMatchers+beSupersetOf.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -223,13 +213,6 @@
 			remoteGlobalIDString = 5D161BA711701D7E41E02A5702FD024E;
 			remoteInfo = Expecta;
 		};
-		E2A4FDB90F208FA20A32CB131AE13668 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 712649F45B80677438D39FFB882EA6F5;
-			remoteInfo = WatchCon;
-		};
 		F40698F659536C6FD3AE93D223251E19 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -242,12 +225,11 @@
 /* Begin PBXFileReference section */
 		01A98D798EB73264AA372D8AEA5E7CEF /* OCMock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMock.h; path = Source/OCMock/OCMock.h; sourceTree = "<group>"; };
 		03F8B1E62795738CDD2D1A72F3C28848 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+OCMAdditions.h"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		07220C8F00AAAD924C2D73C0552EC4F6 /* Pods-WatchCon-iOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchCon-iOSTests-frameworks.sh"; sourceTree = "<group>"; };
 		08094814BBBF4E55D8FEE21046D55921 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Quick.modulemap; sourceTree = "<group>"; };
-		08922C5BFDB3821B1A7E35A13F8BE79C /* Pods-WatchCon-iOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WatchCon-iOSTests.modulemap"; sourceTree = "<group>"; };
 		09C101A302D88B141F9A39E31DC9AB61 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickSpecBase/include/QuickSpecBase.h; sourceTree = "<group>"; };
 		09EAD3BDA00BD6854FCBD97374D5D047 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		09F92E38FB39554C10D4E9586324CB27 /* ExpectaSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaSupport.h; path = Expecta/ExpectaSupport.h; sourceTree = "<group>"; };
-		0AB430B29B903AF4E9ACCFFBF31654CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AEEE0E9F72D2E1D1504202E5AEF6BE4 /* OCMReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMReturnValueProvider.h; path = Source/OCMock/OCMReturnValueProvider.h; sourceTree = "<group>"; };
 		0D3A364636C18378B8F199EFA8F966F7 /* OCMMacroState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMMacroState.m; path = Source/OCMock/OCMMacroState.m; sourceTree = "<group>"; };
 		0DA4A79C8F02DA3B948DDD41EA506257 /* Expecta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Expecta.modulemap; sourceTree = "<group>"; };
@@ -258,17 +240,13 @@
 		142B3351A0FEAECA702C3C2ED32A408D /* NSValue+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+Expecta.h"; path = "Expecta/NSValue+Expecta.h"; sourceTree = "<group>"; };
 		15D3DEB6201241EB10F83141D0F27199 /* World.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = World.h; path = Sources/QuickObjectiveC/World.h; sourceTree = "<group>"; };
 		172D19F14B5A94EE9FC296B6277CCBFA /* EXPMatchers+raiseWithReason.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raiseWithReason.m"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.m"; sourceTree = "<group>"; };
-		17FA6D29A52B08E20DDBB5FF3FDD9928 /* Pods-WatchCon-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchCon-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		197DA089885C2583031465F2FF6997E9 /* Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Expecta.h; path = Expecta/Expecta.h; sourceTree = "<group>"; };
-		1A6E8D149286CD019D49FD1470DA500E /* WatchCon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchCon.xcconfig; sourceTree = "<group>"; };
 		1CC3E02854B4748FE49F6D95A8EE9BFB /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
 		1D3B79B17179206A4EDF156180F985BF /* OCObserverMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCObserverMockObject.m; path = Source/OCMock/OCObserverMockObject.m; sourceTree = "<group>"; };
 		205EC28D28E7F65F2B10BFF2C66301DC /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		20CE23402B3530F2247C6D3E1F846D89 /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
-		217B89EA07FC400AE9F23A53887B4F6E /* WatchCon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WatchCon.h; sourceTree = "<group>"; };
 		22066EA0F6AA5A425A448BE152E1364A /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		221CD8D4E3AEECBC5A55DFE304C733DD /* Expecta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta-dummy.m"; sourceTree = "<group>"; };
-		231D229FFFF8CE464D0646A20EA3CB61 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E31FE3E16AD2F86EEBD6F540D60858 /* OCMNotificationPoster.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMNotificationPoster.m; path = Source/OCMock/OCMNotificationPoster.m; sourceTree = "<group>"; };
 		2404F36ECC6602E15E8A3DB4C718E1D3 /* NSObject+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+OCMAdditions.m"; path = "Source/OCMock/NSObject+OCMAdditions.m"; sourceTree = "<group>"; };
 		24070A639A16BBD64DDEA34B822FB777 /* OCMBlockCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBlockCaller.h; path = Source/OCMock/OCMBlockCaller.h; sourceTree = "<group>"; };
@@ -276,7 +254,6 @@
 		26561A2CC6A40428B663E78D45441ACA /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
 		27068C762EAB0C8630F82C67B24A8519 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		2779200C5F978CD2205B40840062A921 /* OCMock.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCMock.xcconfig; sourceTree = "<group>"; };
-		279D5BD5027F9BEE4B01296D88F7CC68 /* Pods_WatchCon_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WatchCon_iOSTests.framework; path = "Pods-WatchCon-iOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27CB0320B13AEBEB305EEA3508B80186 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
 		2804B8CF232874C86C0D17EB6D7113DE /* EXPMatchers+beCloseTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beCloseTo.h"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.h"; sourceTree = "<group>"; };
 		2812426ACB05597FD33C8627DAD96231 /* OCMArg.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMArg.m; path = Source/OCMock/OCMArg.m; sourceTree = "<group>"; };
@@ -284,7 +261,6 @@
 		2885E92F727085956755B6A65406987F /* EXPMatchers+beIdenticalTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beIdenticalTo.h"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.h"; sourceTree = "<group>"; };
 		28A48CC6EAABBDF0E6F6B8CED5F52779 /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
 		29035AD4693C3E7F221EB087413510C0 /* EXPMatchers+equal.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+equal.m"; path = "Expecta/Matchers/EXPMatchers+equal.m"; sourceTree = "<group>"; };
-		29E6E130951A2A99CE1C308D6B2F4A98 /* Pods-WatchOS-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchOS-Sample-dummy.m"; sourceTree = "<group>"; };
 		2AD010C90E79C438DFCD74C365DF3E5A /* NSValue+Expecta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+Expecta.m"; path = "Expecta/NSValue+Expecta.m"; sourceTree = "<group>"; };
 		2C2AC9F45F5980B71A8BA4C7A8BD9C35 /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
 		2D0D4BDD7B7A6B3089AC6C7BC2601D77 /* EXPMatchers+conformTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+conformTo.h"; path = "Expecta/Matchers/EXPMatchers+conformTo.h"; sourceTree = "<group>"; };
@@ -292,13 +268,16 @@
 		2DD57C1C367E8FD0BFD0FD2A63B8DD96 /* OCMLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMLocation.m; path = Source/OCMock/OCMLocation.m; sourceTree = "<group>"; };
 		320658CD179E1A00CFF710804C158FAE /* NSValue+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValue+OCMAdditions.m"; path = "Source/OCMock/NSValue+OCMAdditions.m"; sourceTree = "<group>"; };
 		3285121C51332D6014F46C6EADF3D997 /* ExpectaObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaObject.m; path = Expecta/ExpectaObject.m; sourceTree = "<group>"; };
+		32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34D07D99C6D16BC479FD45556F92F48F /* OCMExpectationRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMExpectationRecorder.h; path = Source/OCMock/OCMExpectationRecorder.h; sourceTree = "<group>"; };
 		358366680FDEB2163EA8E07280A8CA0E /* ExpectaObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExpectaObject.h; path = Expecta/ExpectaObject.h; sourceTree = "<group>"; };
+		367C256955EB70E73972A8D3FA5D5FFD /* Pods-WatchCon-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchCon-iOS-umbrella.h"; sourceTree = "<group>"; };
 		391690F81333C5A05F1BD191B2C18901 /* EXPMatchers+raiseWithReason.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raiseWithReason.h"; path = "Expecta/Matchers/EXPMatchers+raiseWithReason.h"; sourceTree = "<group>"; };
 		393DE41D8DD31C64722C9724FF10A280 /* OCMock-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCMock-dummy.m"; sourceTree = "<group>"; };
 		3988244B13B52905C7D6A7925C8EDCD6 /* OCMIndirectReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMIndirectReturnValueProvider.h; path = Source/OCMock/OCMIndirectReturnValueProvider.h; sourceTree = "<group>"; };
 		39FC29FFBE0E876B238CEAABDF9A400C /* EXPMatchers+beTruthy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beTruthy.h"; path = "Expecta/Matchers/EXPMatchers+beTruthy.h"; sourceTree = "<group>"; };
 		3A20CA22E81599F1B015F2149ED5A4C1 /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
+		3A31522A2571F9AAF0C49BAF8A6E1EDB /* Pods-WatchCon-iOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchCon-iOSTests-dummy.m"; sourceTree = "<group>"; };
 		3AA367D9520542E4E72CA4F1200D7BD6 /* EXPMatchers+beInTheRangeOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInTheRangeOf.m"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.m"; sourceTree = "<group>"; };
 		3C6A40C18F9705EF2F0C54596E452EEB /* EXPMatchers+beSupersetOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSupersetOf.m"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.m"; sourceTree = "<group>"; };
 		3F0B9CED72619FC664F0FB3783FE627B /* OCMock-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-prefix.pch"; sourceTree = "<group>"; };
@@ -306,87 +285,79 @@
 		4117241450B80B541FE0E6A81621CF94 /* EXPFloatTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPFloatTuple.h; path = Expecta/EXPFloatTuple.h; sourceTree = "<group>"; };
 		41D779CB29A9644D4C6C60EC6862627B /* OCMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMockObject.m; path = Source/OCMock/OCMockObject.m; sourceTree = "<group>"; };
 		41FFC6F4B2C0B079D5103118B3EF6A56 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
-		4332A4C8C6FE90DA1BB39F31B4B485A6 /* Pods-WatchCon-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchCon-iOS-umbrella.h"; sourceTree = "<group>"; };
-		433FB3A499D5B9AD450291E957AD146F /* Pods-WatchCon-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchCon-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		437FE2F3E0D8085ECC6952F99BF4F2EF /* Pods-WatchOS-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchOS-Sample-frameworks.sh"; sourceTree = "<group>"; };
 		472888B971808D6DA07CC922157110B9 /* OCMFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMFunctions.h; path = Source/OCMock/OCMFunctions.h; sourceTree = "<group>"; };
+		473332E0B5E519BF6D87D7B2C76A8FA4 /* Pods-WatchCon-iOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchCon-iOSTests-umbrella.h"; sourceTree = "<group>"; };
 		476CDC5FB05B0036E79AB9916811A598 /* NSNotificationCenter+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+OCMAdditions.m"; path = "Source/OCMock/NSNotificationCenter+OCMAdditions.m"; sourceTree = "<group>"; };
 		4AC0853357A4FF25711158E483050F53 /* OCMInvocationExpectation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationExpectation.m; path = Source/OCMock/OCMInvocationExpectation.m; sourceTree = "<group>"; };
+		4C5528E4427EF9953176DE48435454FC /* Pods-WatchCon-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchCon-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D889F8168430D9263DF37C89B55F7CC /* EXPMatchers+beGreaterThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m"; sourceTree = "<group>"; };
 		4D8D0EB46AD14429B226AC0D381D4560 /* OCMBlockCaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBlockCaller.m; path = Source/OCMock/OCMBlockCaller.m; sourceTree = "<group>"; };
 		4DA5A83D7D44F2C08E5B43108FD8777F /* OCClassMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCClassMockObject.h; path = Source/OCMock/OCClassMockObject.h; sourceTree = "<group>"; };
 		4F4230067DEE3F6D3696FED4DAC02C61 /* Expecta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-umbrella.h"; sourceTree = "<group>"; };
 		4F69FDF105D1D80EEC7353303E77AB88 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
+		504D656C4F97528FE346D13533D9E9E3 /* Pods-WatchCon-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchCon-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5125805347AA4652B8EA7E07FEE3942B /* OCMRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRecorder.m; path = Source/OCMock/OCMRecorder.m; sourceTree = "<group>"; };
 		52A8FBD710EF14A09E5EF29A970E131C /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
-		530D74650E4CFEDB3A2B31A7057F1CD8 /* WatchConSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = WatchConSession.m; sourceTree = "<group>"; };
 		53E443CE697C77E4B7E8D3BF3E7E3BD1 /* OCMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMockObject.h; path = Source/OCMock/OCMockObject.h; sourceTree = "<group>"; };
 		54A0AAB0139701E26D7852DDD300C69F /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
-		55573C2A207B2233A3445302811BE3B4 /* Pods-WatchCon-iOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchCon-iOSTests-resources.sh"; sourceTree = "<group>"; };
+		56379C02D13DAD3401B0CB9B12CF9747 /* Pods-WatchCon-iOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchCon-iOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5654CE3E04CDE3F052B3008D2FC9DA6C /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
-		572FDD32411E1FEF340ED34C414279D1 /* WatchCon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchCon-prefix.pch"; sourceTree = "<group>"; };
 		585377BE91EE53BC5B36A96C0D2EB6BB /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
 		5A2F2774CABD2E1BFED3A8F2B9C01AA1 /* EXPUnsupportedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPUnsupportedObject.m; path = Expecta/EXPUnsupportedObject.m; sourceTree = "<group>"; };
 		5AB771D79221C8BC5D107C0489F9821E /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
 		5BA50818F250C5713D018C9961BC103E /* EXPMatchers+beKindOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beKindOf.m"; path = "Expecta/Matchers/EXPMatchers+beKindOf.m"; sourceTree = "<group>"; };
+		5E1C1595107B317E54472CEED5638452 /* Pods-WatchCon-iOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WatchCon-iOSTests.modulemap"; sourceTree = "<group>"; };
 		5EDC14CDB5CA628376A74BB7A6CDF58D /* OCMConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMConstraint.m; path = Source/OCMock/OCMConstraint.m; sourceTree = "<group>"; };
 		5FB4527342E2BC161651E9B515CD9C92 /* OCProtocolMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCProtocolMockObject.h; path = Source/OCMock/OCProtocolMockObject.h; sourceTree = "<group>"; };
 		60C5D0313F1B4E6B33F4EEB9C58D2E96 /* EXPMatchers+beNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beNil.m"; path = "Expecta/Matchers/EXPMatchers+beNil.m"; sourceTree = "<group>"; };
 		61C427848AA32C754035AFB6F7C5467E /* EXPMatchers+beTruthy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beTruthy.m"; path = "Expecta/Matchers/EXPMatchers+beTruthy.m"; sourceTree = "<group>"; };
 		62298D7A33E96BC6BDC9CEC3FA603B1A /* OCMLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMLocation.h; path = Source/OCMock/OCMLocation.h; sourceTree = "<group>"; };
 		624E87DB4CA4FA16AB211956D3C2B239 /* EXPMatchers+respondTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+respondTo.m"; path = "Expecta/Matchers/EXPMatchers+respondTo.m"; sourceTree = "<group>"; };
-		633548CC3CA2E657F7FB6AB786149065 /* Pods-WatchCon-iOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchCon-iOSTests-frameworks.sh"; sourceTree = "<group>"; };
 		636768A44CA6BBB4CE71E6E49B85E53F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63DF002B65E242C42F99721DCD55C74F /* Pods-WatchCon-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchCon-iOS-dummy.m"; sourceTree = "<group>"; };
 		63F6CAB99DAF639CF534895A7A4FAF96 /* OCMFunctionsPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMFunctionsPrivate.h; path = Source/OCMock/OCMFunctionsPrivate.h; sourceTree = "<group>"; };
 		64F24E0AE708B5B27360971FC962A6E3 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
-		6718E78B04BB89013C96DF79F1E47D3B /* Pods-WatchCon-iOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchCon-iOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		673DC65B715FE539CAAD3E01CA0C2408 /* EXPMatchers+beIdenticalTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beIdenticalTo.m"; path = "Expecta/Matchers/EXPMatchers+beIdenticalTo.m"; sourceTree = "<group>"; };
-		67D46190471222E52A2E85D977FB9971 /* Pods-WatchOS-Sample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchOS-Sample-resources.sh"; sourceTree = "<group>"; };
-		68313CF19248A3EA6E5593D4A20BCAA3 /* Pods-WatchOS-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WatchOS-Sample.modulemap"; sourceTree = "<group>"; };
 		69F8D05E3269B069DBB29C4A8159C5CE /* EXPMatcherHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcherHelpers.h; path = Expecta/Matchers/EXPMatcherHelpers.h; sourceTree = "<group>"; };
 		6A9E0CA8C7B424CA1B03021A0A802BF2 /* OCMNotificationPoster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMNotificationPoster.h; path = Source/OCMock/OCMNotificationPoster.h; sourceTree = "<group>"; };
 		6B595A11B6597AE79304E5574CBF2D26 /* OCMVerifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMVerifier.m; path = Source/OCMock/OCMVerifier.m; sourceTree = "<group>"; };
-		6CBD20EFB00DCEEA114C51C85655F75A /* Pods-WatchCon-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchCon-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6E70DE72CC15D9FA95CB45D338175F46 /* EXPMatchers+beGreaterThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beGreaterThan.m"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.m"; sourceTree = "<group>"; };
-		6ECEDBAAD59909741A1C127B268DBA0F /* Pods-WatchCon-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchCon-iOS-resources.sh"; sourceTree = "<group>"; };
+		7043C3C8D297D83E347E07B58C920754 /* Pods-WatchCon-iOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchCon-iOSTests-resources.sh"; sourceTree = "<group>"; };
 		70B921B5F02CF489944FD3B2C63519EA /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
 		73B0EC574F182E88A7DEED53A139EA3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73EA4ED18D9FDE0800EBE67AB3851C12 /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
+		7490A23D609D34832CE0CF746D8003AC /* Pods-WatchCon-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WatchCon-iOS.modulemap"; sourceTree = "<group>"; };
 		754658AD8C043A9A1619BBFC08B3BE8F /* OCMArg.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMArg.h; path = Source/OCMock/OCMArg.h; sourceTree = "<group>"; };
+		76895DE189BEB71B454E9759AAF7FF95 /* Pods_WatchCon_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WatchCon_iOSTests.framework; path = "Pods-WatchCon-iOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		781C9C9AD2E1124E244D89AFC5992288 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
 		793964B73A0A47EFA5495B524D753FB9 /* OCPartialMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCPartialMockObject.m; path = Source/OCMock/OCPartialMockObject.m; sourceTree = "<group>"; };
 		7D3A2DBEA70A33CA8A06CEFF7832C2AC /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
 		7D5881B6C516F55323CEA2FD363E80B9 /* EXPMatchers+beFalsy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beFalsy.h"; path = "Expecta/Matchers/EXPMatchers+beFalsy.h"; sourceTree = "<group>"; };
-		7D838A8000D303A879628ED59C3B5345 /* Pods-WatchOS-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchOS-Sample.debug.xcconfig"; sourceTree = "<group>"; };
 		80031A871DC8C532EEEFE5170E89A606 /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
 		8004106895E8D8667155AEB51D3DE00D /* NSInvocation+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+OCMAdditions.m"; path = "Source/OCMock/NSInvocation+OCMAdditions.m"; sourceTree = "<group>"; };
-		80128CD57235669A6DC28494D7F35B50 /* Pods-WatchCon-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchCon-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		8049F78AD188D110A6228A5C6689C1A7 /* OCPartialMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCPartialMockObject.h; path = Source/OCMock/OCPartialMockObject.h; sourceTree = "<group>"; };
 		811CE2C94B2B6BCBBE6CB8B2C1C7EA27 /* EXPMatchers+beLessThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h"; sourceTree = "<group>"; };
+		8149B4B6E00F579596D3ED8871AEB65A /* Pods-WatchCon-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WatchCon-iOS-resources.sh"; sourceTree = "<group>"; };
 		81B67BED10B159B866796D3A8BE40891 /* OCMInvocationExpectation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationExpectation.h; path = Source/OCMock/OCMInvocationExpectation.h; sourceTree = "<group>"; };
 		8230BE121765D4E710F643E7FA81EBBF /* OCMRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMRecorder.h; path = Source/OCMock/OCMRecorder.h; sourceTree = "<group>"; };
-		8374C7359586FB71E2604988790E5198 /* Pods-WatchCon-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchCon-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		85D21468D15AF822161B69F15202C8A9 /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
 		86EDC90B5EF3B557A14BCB635F1C55FD /* EXPMatchers+raise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+raise.m"; path = "Expecta/Matchers/EXPMatchers+raise.m"; sourceTree = "<group>"; };
 		8843F52F72086FA004AB1A3E10A64CED /* OCMInvocationStub.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationStub.m; path = Source/OCMock/OCMInvocationStub.m; sourceTree = "<group>"; };
 		886EC6DFEE7CDE5827160323A53644D3 /* Expecta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta-prefix.pch"; sourceTree = "<group>"; };
 		89171CC8307B64E4E7AF7595642D176E /* OCMRealObjectForwarder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMRealObjectForwarder.m; path = Source/OCMock/OCMRealObjectForwarder.m; sourceTree = "<group>"; };
 		8A360F58795BED58DB29043FB24E4D6F /* EXPMatchers+beginWith.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beginWith.h"; path = "Expecta/Matchers/EXPMatchers+beginWith.h"; sourceTree = "<group>"; };
-		8C205208908B3DC29469E355CD29613D /* Pods-WatchOS-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchOS-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8E5D0597DB9823B7502D03F8F2478C5B /* ExpectaSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ExpectaSupport.m; path = Expecta/ExpectaSupport.m; sourceTree = "<group>"; };
-		8E9671ADC61DA41224D1A327AF9602A1 /* Pods-WatchCon-iOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchCon-iOSTests-umbrella.h"; sourceTree = "<group>"; };
 		8EA020C445E2952311A0FDEA50DE9A27 /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
 		8FD9A87B2E7666FFE29393977A5A19E5 /* OCMExpectationRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMExpectationRecorder.m; path = Source/OCMock/OCMExpectationRecorder.m; sourceTree = "<group>"; };
 		8FF002B21E4717C4F8EFC20709BA6D67 /* OCMock-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCMock-umbrella.h"; sourceTree = "<group>"; };
 		92D62880C55F4BD96081E94FDA404697 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
-		932625ED1756D6732F43F04929DBAA8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9340E625669C0791F123181D06780733 /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99C5DAA145C4A49B12843B67EDA2B20C /* OCMArgAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMArgAction.m; path = Source/OCMock/OCMArgAction.m; sourceTree = "<group>"; };
-		99F38A1BCB45D419C4CA264BFFFE2D8F /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		9B751BB933F45992B279B367F89DBF93 /* OCMInvocationStub.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationStub.h; path = Source/OCMock/OCMInvocationStub.h; sourceTree = "<group>"; };
 		9C59C6E02053DAF27D52047843546F2C /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
 		9CD41E55E4D9A38909F82E09D4D2AB75 /* NSMethodSignature+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMethodSignature+OCMAdditions.h"; path = "Source/OCMock/NSMethodSignature+OCMAdditions.h"; sourceTree = "<group>"; };
+		9DF19852F8BBEF0BB4536AD3677FD87A /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E760814A2B2361772E6F5A47B5A2FF3 /* OCMPassByRefSetter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMPassByRefSetter.h; path = Source/OCMock/OCMPassByRefSetter.h; sourceTree = "<group>"; };
 		9FA5E070F848C22BE1DDED5A35F7078C /* NSString+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSString+C99ExtendedIdentifier.swift"; path = "Sources/Quick/NSString+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
 		A15D891B601017935FF8FEAFD0D082CB /* NSMethodSignature+OCMAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMethodSignature+OCMAdditions.m"; path = "Source/OCMock/NSMethodSignature+OCMAdditions.m"; sourceTree = "<group>"; };
@@ -397,7 +368,7 @@
 		A891A8FAA144336B650735EA776E2533 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
 		A8B3819C7926F10A326863255CE468E6 /* OCMExceptionReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMExceptionReturnValueProvider.h; path = Source/OCMock/OCMExceptionReturnValueProvider.h; sourceTree = "<group>"; };
 		A8C1BC20290ABE4597547A9CC9962262 /* OCMStubRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMStubRecorder.m; path = Source/OCMock/OCMStubRecorder.m; sourceTree = "<group>"; };
-		AA20D29D7184780B6CDD9E6E41C973D8 /* WatchCon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WatchCon.framework; path = WatchCon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB428F63DB20EF600A110F54A4E3FBC1 /* Expecta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Expecta.framework; path = Expecta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9B9B929CF57EEB6259003006333FB1 /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		AC6D3CBD2A421CBA4E1F7B1B28732C62 /* OCMVerifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMVerifier.h; path = Source/OCMock/OCMVerifier.h; sourceTree = "<group>"; };
 		ACBBA14211B56C83D70FAE0E59347D4D /* OCMPassByRefSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMPassByRefSetter.m; path = Source/OCMock/OCMPassByRefSetter.m; sourceTree = "<group>"; };
@@ -405,67 +376,57 @@
 		AD70FA1CCEB2B90D3DABD9997F30336B /* OCMIndirectReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMIndirectReturnValueProvider.m; path = Source/OCMock/OCMIndirectReturnValueProvider.m; sourceTree = "<group>"; };
 		AE0D1380960BDE08254E41DEB058B805 /* EXPDoubleTuple.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDoubleTuple.h; path = Expecta/EXPDoubleTuple.h; sourceTree = "<group>"; };
 		AE28FF3A9AEA5FE4267DAA2F107D1078 /* EXPBlockDefinedMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPBlockDefinedMatcher.m; path = Expecta/EXPBlockDefinedMatcher.m; sourceTree = "<group>"; };
-		AE7FC23F2178AE8FB2A47660DAC1ACF8 /* Pods-WatchCon-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchCon-iOS-dummy.m"; sourceTree = "<group>"; };
+		AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B12AF398D98545421B7C6DA800221744 /* World+DSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "World+DSL.h"; path = "Sources/QuickObjectiveC/DSL/World+DSL.h"; sourceTree = "<group>"; };
-		B38CDD6884C0C23C25BCD3057AABAA71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B3D3EE15DC8E5020AE26D588A764FD5C /* Pods-WatchCon-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchCon-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		B4E59CAC84ABA9E902C3F889718431CE /* EXPBlockDefinedMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPBlockDefinedMatcher.h; path = Expecta/EXPBlockDefinedMatcher.h; sourceTree = "<group>"; };
-		B51A2726568E4905D5A16D60D59628BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6116A1C2732D9533A6126515984D904 /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
 		B6C9961A5519E7472DCC969B532BDA61 /* EXPMatchers+beNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beNil.h"; path = "Expecta/Matchers/EXPMatchers+beNil.h"; sourceTree = "<group>"; };
+		B8F58EC47C914BA9CAC6071FCD45AA0E /* Pods-WatchCon-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchCon-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		B921637D849D0101F44147C959F73324 /* OCMFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMFunctions.m; path = Source/OCMock/OCMFunctions.m; sourceTree = "<group>"; };
 		B931A549A0F06FCC5CA2628BDDB4537A /* EXPMatchers+postNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+postNotification.m"; path = "Expecta/Matchers/EXPMatchers+postNotification.m"; sourceTree = "<group>"; };
 		BB6EFF5A47976AD60DBAF9A9CB33FF31 /* OCClassMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCClassMockObject.m; path = Source/OCMock/OCClassMockObject.m; sourceTree = "<group>"; };
 		BC8510C2B072780EF9EB285AD0E08DD3 /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		BCD1236A206F6CB7F5FFEEA1F3CD4A57 /* OCMObserverRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMObserverRecorder.m; path = Source/OCMock/OCMObserverRecorder.m; sourceTree = "<group>"; };
+		BCD9D11BF39545CBB832921EA4F07CC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C13664017A55668033B60B98F42516D8 /* OCMConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMConstraint.h; path = Source/OCMock/OCMConstraint.h; sourceTree = "<group>"; };
 		C4B30E40572601A4A3367809FEB4F5CF /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
 		C5FC89ADD87950728634EAEE8AA0DD70 /* EXPMatchers+raise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+raise.h"; path = "Expecta/Matchers/EXPMatchers+raise.h"; sourceTree = "<group>"; };
 		C639C22E64154794123E718AF27D7B93 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
 		C7A0B8250FC3B1996F16C6BF0CBD613B /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
-		C86565104DACAB05DFE88A305A1F68DB /* Quick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C949A5C8EBBE1996AFA9363476ABCC43 /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
 		CC041EC24C336E8C180CE17DFFF45431 /* OCObserverMockObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCObserverMockObject.h; path = Source/OCMock/OCObserverMockObject.h; sourceTree = "<group>"; };
 		CD5A0C039DBCA8BF734D24F1E6B2B09D /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
-		CDBE1349D7541BAB450E1D3E0D429656 /* WatchConSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WatchConSession.h; sourceTree = "<group>"; };
 		CDE37694B472E090550E40ABF3E42BEB /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
 		D0D6FB1B862BAACC5045A36D988C2049 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		D1E4FBF3ADAF3FFA968C532F091A8255 /* EXPMatchers+beGreaterThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThan.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThan.h"; sourceTree = "<group>"; };
-		D310808C8E80539E8C329CDDD9F2E6F2 /* WatchCon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WatchCon.modulemap; sourceTree = "<group>"; };
-		D38A67C56805B4948DEE6190D8526D56 /* Pods_WatchCon_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WatchCon_iOS.framework; path = "Pods-WatchCon-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30B6A0CC0424BF0A23012B9E308BCD0 /* OCMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCMock.framework; path = OCMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D438ECFDE3A0E1F0041B78D27293765F /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
 		D4B5A9BEB7E6ABD6474060C14903811D /* EXPFloatTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPFloatTuple.m; path = Expecta/EXPFloatTuple.m; sourceTree = "<group>"; };
-		D4E35ACA039BB3C67947FA0754769F90 /* Pods_WatchOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WatchOS_Sample.framework; path = "Pods-WatchOS-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A269F4BB342515E64C97D57BA532BC /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
+		D818B08E7066864B087D96478AD2F8F1 /* Pods-WatchCon-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchCon-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		D831DC0942171B60E2E0FBF8269BBFAB /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
+		DA2BFAD0DD9892ADA3CE222F29D470B3 /* Pods_WatchCon_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WatchCon_iOS.framework; path = "Pods-WatchCon-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A68F089892AEC5E4DFA91CEB75603 /* Quick.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.xcconfig; sourceTree = "<group>"; };
-		DB59BD2CCACE9EFDD63D563C5922019F /* Pods-WatchCon-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-WatchCon-iOS.modulemap"; sourceTree = "<group>"; };
 		DCFA3DFCD49C1550E9DFBB7810E15A99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD87A426ADC621C336519EAE423A4416 /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
 		DE765F746AFEDFFD89CF09183E39F955 /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
-		DED4CA6F6655C4517735DBEB8E8C6F7A /* WatchCon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchCon-umbrella.h"; sourceTree = "<group>"; };
 		DF5BFF16243281A6D9A0B2CE49898137 /* OCMArgAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMArgAction.h; path = Source/OCMock/OCMArgAction.h; sourceTree = "<group>"; };
-		DFE1ACEA756430D0E09AD6A062F9CB84 /* Pods-WatchOS-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchOS-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		E021B7433CA49AB39E855AF604829116 /* Pods-WatchCon-iOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchCon-iOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E1566AF1547423653A20C0734DDC5272 /* Pods-WatchOS-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WatchOS-Sample-umbrella.h"; sourceTree = "<group>"; };
-		E1587AA30339EEF59868DE82D443DA4F /* Pods-WatchCon-iOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WatchCon-iOSTests-dummy.m"; sourceTree = "<group>"; };
 		E248D68DFC2B06D29B3A01310B17E350 /* EXPMatchers+beSupersetOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSupersetOf.h"; path = "Expecta/Matchers/EXPMatchers+beSupersetOf.h"; sourceTree = "<group>"; };
 		E3177A9939FF9F2B2D804BC0BDC95CC0 /* OCMExceptionReturnValueProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMExceptionReturnValueProvider.m; path = Source/OCMock/OCMExceptionReturnValueProvider.m; sourceTree = "<group>"; };
 		E3360AAB042652EB0B0AEDC7D503E5BA /* OCMBlockArgCaller.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBlockArgCaller.h; path = Source/OCMock/OCMBlockArgCaller.h; sourceTree = "<group>"; };
 		E410B8C33545D8BD541E63935A683BD3 /* EXPMatchers+beLessThan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThan.m"; path = "Expecta/Matchers/EXPMatchers+beLessThan.m"; sourceTree = "<group>"; };
 		E6230FB1FB2582CF532CD982BB45AE58 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
-		E744F72DAF3C9D420384AADE4ED93089 /* WatchCon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WatchCon-dummy.m"; sourceTree = "<group>"; };
+		E73445C4E689426431E3221873A709BF /* Pods-WatchCon-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WatchCon-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		E759F40E1F236A9C5CC7A9E8C65D1F34 /* NSObject+Expecta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Expecta.h"; path = "Expecta/NSObject+Expecta.h"; sourceTree = "<group>"; };
-		E856B6E817314A0110548E44B298B1B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85DE7B00AF6949085AFCBF632566FBA /* OCMRealObjectForwarder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMRealObjectForwarder.h; path = Source/OCMock/OCMRealObjectForwarder.h; sourceTree = "<group>"; };
 		E893A10BB2E602448DE046F559A06975 /* OCProtocolMockObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCProtocolMockObject.m; path = Source/OCMock/OCProtocolMockObject.m; sourceTree = "<group>"; };
 		E94187E3DF07F62CFD033CD32E640A10 /* OCMBoxedReturnValueProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMBoxedReturnValueProvider.h; path = Source/OCMock/OCMBoxedReturnValueProvider.h; sourceTree = "<group>"; };
 		EAB5F3FAF5CA354DA59257FD21A25980 /* OCMInvocationMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMInvocationMatcher.h; path = Source/OCMock/OCMInvocationMatcher.h; sourceTree = "<group>"; };
-		EAF2C71AF72C55F3D3D8AB65A3F3153F /* OCMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCMock.framework; path = OCMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB3CDAC288F1FDC784D50A2599335B74 /* EXPMatchers+endWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+endWith.m"; path = "Expecta/Matchers/EXPMatchers+endWith.m"; sourceTree = "<group>"; };
 		EBE73403076FD20A05DCDCBD6CB75E6D /* NSObject+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+OCMAdditions.h"; path = "Source/OCMock/NSObject+OCMAdditions.h"; sourceTree = "<group>"; };
 		EBF93939107B351B3334718BF80B86CA /* EXPMatchers+beSubclassOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beSubclassOf.h"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.h"; sourceTree = "<group>"; };
 		ECB2C3457E86A42BD1A802783A073B61 /* EXPDoubleTuple.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPDoubleTuple.m; path = Expecta/EXPDoubleTuple.m; sourceTree = "<group>"; };
+		EE3E8E8640E58EC4B994BFEA5C4778EB /* Pods-WatchCon-iOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchCon-iOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE8DF8C62B6B578C416B0DB88262D991 /* NSValue+OCMAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValue+OCMAdditions.h"; path = "Source/OCMock/NSValue+OCMAdditions.h"; sourceTree = "<group>"; };
 		F2964D5FD159ED26F82E0666B498CA81 /* OCMBlockArgCaller.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMBlockArgCaller.m; path = Source/OCMock/OCMBlockArgCaller.m; sourceTree = "<group>"; };
 		F48052C53094D8086EE688433F46BEB3 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
@@ -473,23 +434,15 @@
 		F6C5A64731800B5BD76CB5B3B471BDC1 /* EXPMatchers+respondTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+respondTo.h"; path = "Expecta/Matchers/EXPMatchers+respondTo.h"; sourceTree = "<group>"; };
 		F6D94E6873F9D3AEDE0240C9F4570849 /* OCMInvocationMatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OCMInvocationMatcher.m; path = Source/OCMock/OCMInvocationMatcher.m; sourceTree = "<group>"; };
 		F71976B05BF88EAFC004AAA2F105E7EC /* OCMock.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OCMock.modulemap; sourceTree = "<group>"; };
-		F823A767AB8A3F99F62FD09B6204A514 /* Pods-WatchOS-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WatchOS-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8BCC0B18274DCDCB01753FCA5FDD149 /* Pods-WatchCon-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WatchCon-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F8C3911BD0744144ADC53659A6914D8A /* Expecta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Expecta.xcconfig; sourceTree = "<group>"; };
 		F926EBB1C0070E59C98AC135E2791189 /* OCMMacroState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OCMMacroState.h; path = Source/OCMock/OCMMacroState.h; sourceTree = "<group>"; };
+		F9ADADAEC420F146678146E6A7716497 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA462DE965EEDE79337CFB9F8B14371E /* EXPMatchers+beLessThanOrEqualTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beLessThanOrEqualTo.m"; path = "Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m"; sourceTree = "<group>"; };
-		FC7D93E17AA718245BCE8316FC2E662C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FFF5434FA59681C29C69425578C03F9C /* EXPMatchers+beInstanceOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beInstanceOf.m"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		237236FF28CC2A3FF3A3DAC76DEB6DA6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3EB6A5EAA8A7D5AC62FCA42C6375A4F3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5B9C3846CCEBDDFE5E1804755E7799F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -532,51 +485,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECE2858ECB202E3EF707900E09234768 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D981E3F6260CB6EC77180FA572435A64 /* Foundation.framework in Frameworks */,
-				45C5A607D652A275B1733E0E58068171 /* WatchConnectivity.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02DD8CD67B6AE6FE091C14E858F324FB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B51A2726568E4905D5A16D60D59628BC /* Info.plist */,
-				D310808C8E80539E8C329CDDD9F2E6F2 /* WatchCon.modulemap */,
-				1A6E8D149286CD019D49FD1470DA500E /* WatchCon.xcconfig */,
-				E744F72DAF3C9D420384AADE4ED93089 /* WatchCon-dummy.m */,
-				572FDD32411E1FEF340ED34C414279D1 /* WatchCon-prefix.pch */,
-				DED4CA6F6655C4517735DBEB8E8C6F7A /* WatchCon-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Pods/Target Support Files/WatchCon";
-			sourceTree = "<group>";
-		};
-		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D765E428BD23BF5D2016DF47D8F6AF05 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3655AEF33193CCB1D5100E669B908D9C /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				217B89EA07FC400AE9F23A53887B4F6E /* WatchCon.h */,
-				CDBE1349D7541BAB450E1D3E0D429656 /* WatchConSession.h */,
-				530D74650E4CFEDB3A2B31A7057F1CD8 /* WatchConSession.m */,
-			);
-			name = Sources;
-			path = Sources;
-			sourceTree = "<group>";
-		};
 		3A0AF96D5920D370DD8A13D8F1325DE6 /* Quick */ = {
 			isa = PBXGroup;
 			children = (
@@ -617,14 +528,30 @@
 			path = Quick;
 			sourceTree = "<group>";
 		};
-		3D85C8B7FFCD608D8490187ACC3117D1 /* Targets Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5C9E4C5C37393F9B100562ECFE0A6503 /* Pods-WatchCon-iOS */,
-				B7A92F6FC1A1D9213B5B62D23B0B4E36 /* Pods-WatchCon-iOSTests */,
-				C83F4BA2CE10240A1480E89465E87DFA /* Pods-WatchOS-Sample */,
+				9D9CFF97A2D41D7CB20A427D5386C7A6 /* iOS */,
 			);
-			name = "Targets Support Files";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		442E9C31FBE7952CB68A33EA235D7786 /* Pods-WatchCon-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9D11BF39545CBB832921EA4F07CC4 /* Info.plist */,
+				5E1C1595107B317E54472CEED5638452 /* Pods-WatchCon-iOSTests.modulemap */,
+				56379C02D13DAD3401B0CB9B12CF9747 /* Pods-WatchCon-iOSTests-acknowledgements.markdown */,
+				EE3E8E8640E58EC4B994BFEA5C4778EB /* Pods-WatchCon-iOSTests-acknowledgements.plist */,
+				3A31522A2571F9AAF0C49BAF8A6E1EDB /* Pods-WatchCon-iOSTests-dummy.m */,
+				07220C8F00AAAD924C2D73C0552EC4F6 /* Pods-WatchCon-iOSTests-frameworks.sh */,
+				7043C3C8D297D83E347E07B58C920754 /* Pods-WatchCon-iOSTests-resources.sh */,
+				473332E0B5E519BF6D87D7B2C76A8FA4 /* Pods-WatchCon-iOSTests-umbrella.h */,
+				504D656C4F97528FE346D13533D9E9E3 /* Pods-WatchCon-iOSTests.debug.xcconfig */,
+				B8F58EC47C914BA9CAC6071FCD45AA0E /* Pods-WatchCon-iOSTests.release.xcconfig */,
+			);
+			name = "Pods-WatchCon-iOSTests";
+			path = "Target Support Files/Pods-WatchCon-iOSTests";
 			sourceTree = "<group>";
 		};
 		51FD7A42AE656074E82C6C948EC96774 /* Support Files */ = {
@@ -641,32 +568,14 @@
 			path = "../Target Support Files/OCMock";
 			sourceTree = "<group>";
 		};
-		5C9E4C5C37393F9B100562ECFE0A6503 /* Pods-WatchCon-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				0AB430B29B903AF4E9ACCFFBF31654CF /* Info.plist */,
-				DB59BD2CCACE9EFDD63D563C5922019F /* Pods-WatchCon-iOS.modulemap */,
-				17FA6D29A52B08E20DDBB5FF3FDD9928 /* Pods-WatchCon-iOS-acknowledgements.markdown */,
-				B3D3EE15DC8E5020AE26D588A764FD5C /* Pods-WatchCon-iOS-acknowledgements.plist */,
-				AE7FC23F2178AE8FB2A47660DAC1ACF8 /* Pods-WatchCon-iOS-dummy.m */,
-				6ECEDBAAD59909741A1C127B268DBA0F /* Pods-WatchCon-iOS-resources.sh */,
-				4332A4C8C6FE90DA1BB39F31B4B485A6 /* Pods-WatchCon-iOS-umbrella.h */,
-				6CBD20EFB00DCEEA114C51C85655F75A /* Pods-WatchCon-iOS.debug.xcconfig */,
-				8374C7359586FB71E2604988790E5198 /* Pods-WatchCon-iOS.release.xcconfig */,
-			);
-			name = "Pods-WatchCon-iOS";
-			path = "Target Support Files/Pods-WatchCon-iOS";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A0856E7CDD787D4869F94EA36297AD75 /* Development Pods */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				87D8E12EC04D819934BEBC9D7726DC2C /* Pods */,
-				8B4B4A80C91B7C40AF0F3CEF91AA78A2 /* Products */,
-				3D85C8B7FFCD608D8490187ACC3117D1 /* Targets Support Files */,
+				E750C5BA05686A837C641B839EF9AA75 /* Products */,
+				8FC0CD0715F76AF7F02D7E5E3A9FD183 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -680,18 +589,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8B4B4A80C91B7C40AF0F3CEF91AA78A2 /* Products */ = {
+		8FC0CD0715F76AF7F02D7E5E3A9FD183 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				231D229FFFF8CE464D0646A20EA3CB61 /* Expecta.framework */,
-				EAF2C71AF72C55F3D3D8AB65A3F3153F /* OCMock.framework */,
-				D38A67C56805B4948DEE6190D8526D56 /* Pods_WatchCon_iOS.framework */,
-				279D5BD5027F9BEE4B01296D88F7CC68 /* Pods_WatchCon_iOSTests.framework */,
-				D4E35ACA039BB3C67947FA0754769F90 /* Pods_WatchOS_Sample.framework */,
-				C86565104DACAB05DFE88A305A1F68DB /* Quick.framework */,
-				AA20D29D7184780B6CDD9E6E41C973D8 /* WatchCon.framework */,
+				F43F4EBBE0E268AE86A18C476ABF592C /* Pods-WatchCon-iOS */,
+				442E9C31FBE7952CB68A33EA235D7786 /* Pods-WatchCon-iOSTests */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		9CD6D3F2548A84516C8BA73C866B61D4 /* Support Files */ = {
@@ -708,40 +612,13 @@
 			path = "../Target Support Files/Expecta";
 			sourceTree = "<group>";
 		};
-		A0856E7CDD787D4869F94EA36297AD75 /* Development Pods */ = {
+		9D9CFF97A2D41D7CB20A427D5386C7A6 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				ADCDCFD0482936DD7565222619D27F77 /* WatchCon */,
+				32DF21EF8268E32D359CD23F2CF3EFE3 /* Foundation.framework */,
+				AECEA2EDA41473899EE391CA038EDC38 /* XCTest.framework */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		ADCDCFD0482936DD7565222619D27F77 /* WatchCon */ = {
-			isa = PBXGroup;
-			children = (
-				3655AEF33193CCB1D5100E669B908D9C /* Sources */,
-				02DD8CD67B6AE6FE091C14E858F324FB /* Support Files */,
-			);
-			name = WatchCon;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		B7A92F6FC1A1D9213B5B62D23B0B4E36 /* Pods-WatchCon-iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				932625ED1756D6732F43F04929DBAA8D /* Info.plist */,
-				08922C5BFDB3821B1A7E35A13F8BE79C /* Pods-WatchCon-iOSTests.modulemap */,
-				E021B7433CA49AB39E855AF604829116 /* Pods-WatchCon-iOSTests-acknowledgements.markdown */,
-				6718E78B04BB89013C96DF79F1E47D3B /* Pods-WatchCon-iOSTests-acknowledgements.plist */,
-				E1587AA30339EEF59868DE82D443DA4F /* Pods-WatchCon-iOSTests-dummy.m */,
-				633548CC3CA2E657F7FB6AB786149065 /* Pods-WatchCon-iOSTests-frameworks.sh */,
-				55573C2A207B2233A3445302811BE3B4 /* Pods-WatchCon-iOSTests-resources.sh */,
-				8E9671ADC61DA41224D1A327AF9602A1 /* Pods-WatchCon-iOSTests-umbrella.h */,
-				433FB3A499D5B9AD450291E957AD146F /* Pods-WatchCon-iOSTests.debug.xcconfig */,
-				80128CD57235669A6DC28494D7F35B50 /* Pods-WatchCon-iOSTests.release.xcconfig */,
-			);
-			name = "Pods-WatchCon-iOSTests";
-			path = "Target Support Files/Pods-WatchCon-iOSTests";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		BF4EA961D84BB50AB4604DA78BC85CDE /* Support Files */ = {
@@ -758,32 +635,16 @@
 			path = "../Target Support Files/Quick";
 			sourceTree = "<group>";
 		};
-		C83F4BA2CE10240A1480E89465E87DFA /* Pods-WatchOS-Sample */ = {
+		E750C5BA05686A837C641B839EF9AA75 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E856B6E817314A0110548E44B298B1B9 /* Info.plist */,
-				68313CF19248A3EA6E5593D4A20BCAA3 /* Pods-WatchOS-Sample.modulemap */,
-				8C205208908B3DC29469E355CD29613D /* Pods-WatchOS-Sample-acknowledgements.markdown */,
-				F823A767AB8A3F99F62FD09B6204A514 /* Pods-WatchOS-Sample-acknowledgements.plist */,
-				29E6E130951A2A99CE1C308D6B2F4A98 /* Pods-WatchOS-Sample-dummy.m */,
-				437FE2F3E0D8085ECC6952F99BF4F2EF /* Pods-WatchOS-Sample-frameworks.sh */,
-				67D46190471222E52A2E85D977FB9971 /* Pods-WatchOS-Sample-resources.sh */,
-				E1566AF1547423653A20C0734DDC5272 /* Pods-WatchOS-Sample-umbrella.h */,
-				7D838A8000D303A879628ED59C3B5345 /* Pods-WatchOS-Sample.debug.xcconfig */,
-				DFE1ACEA756430D0E09AD6A062F9CB84 /* Pods-WatchOS-Sample.release.xcconfig */,
+				AB428F63DB20EF600A110F54A4E3FBC1 /* Expecta.framework */,
+				D30B6A0CC0424BF0A23012B9E308BCD0 /* OCMock.framework */,
+				DA2BFAD0DD9892ADA3CE222F29D470B3 /* Pods_WatchCon_iOS.framework */,
+				76895DE189BEB71B454E9759AAF7FF95 /* Pods_WatchCon_iOSTests.framework */,
+				9DF19852F8BBEF0BB4536AD3677FD87A /* Quick.framework */,
 			);
-			name = "Pods-WatchOS-Sample";
-			path = "Target Support Files/Pods-WatchOS-Sample";
-			sourceTree = "<group>";
-		};
-		D765E428BD23BF5D2016DF47D8F6AF05 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				B38CDD6884C0C23C25BCD3057AABAA71 /* Foundation.framework */,
-				99F38A1BCB45D419C4CA264BFFFE2D8F /* WatchConnectivity.framework */,
-				FC7D93E17AA718245BCE8316FC2E662C /* XCTest.framework */,
-			);
-			name = iOS;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		EA427EFDC39C39EC62FC606196AAF907 /* Expecta */ = {
@@ -945,6 +806,23 @@
 			path = OCMock;
 			sourceTree = "<group>";
 		};
+		F43F4EBBE0E268AE86A18C476ABF592C /* Pods-WatchCon-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9ADADAEC420F146678146E6A7716497 /* Info.plist */,
+				7490A23D609D34832CE0CF746D8003AC /* Pods-WatchCon-iOS.modulemap */,
+				F8BCC0B18274DCDCB01753FCA5FDD149 /* Pods-WatchCon-iOS-acknowledgements.markdown */,
+				4C5528E4427EF9953176DE48435454FC /* Pods-WatchCon-iOS-acknowledgements.plist */,
+				63DF002B65E242C42F99721DCD55C74F /* Pods-WatchCon-iOS-dummy.m */,
+				8149B4B6E00F579596D3ED8871AEB65A /* Pods-WatchCon-iOS-resources.sh */,
+				367C256955EB70E73972A8D3FA5D5FFD /* Pods-WatchCon-iOS-umbrella.h */,
+				E73445C4E689426431E3221873A709BF /* Pods-WatchCon-iOS.debug.xcconfig */,
+				D818B08E7066864B087D96478AD2F8F1 /* Pods-WatchCon-iOS.release.xcconfig */,
+			);
+			name = "Pods-WatchCon-iOS";
+			path = "Target Support Files/Pods-WatchCon-iOS";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -953,16 +831,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBAB7672F5107D99C0EECE765CEF1D93 /* Pods-WatchCon-iOSTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A41310E2086F4E063BCF21DD38AABD8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4F7D63AB1C99914EE82759CC2CCCBC0B /* WatchCon-umbrella.h in Headers */,
-				322D721F87A52966971A5919026260CD /* WatchCon.h in Headers */,
-				1E39DFFD1C210AE6FC2D6505103CEC1F /* WatchConSession.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1079,14 +947,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C894B81C2EB8B11F2B16F60CDC5ADBC2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8805F4E40FE412ABEF68258EF4CCAFB6 /* Pods-WatchOS-Sample-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1104,7 +964,7 @@
 			);
 			name = "Pods-WatchCon-iOS";
 			productName = "Pods-WatchCon-iOS";
-			productReference = D38A67C56805B4948DEE6190D8526D56 /* Pods_WatchCon_iOS.framework */;
+			productReference = DA2BFAD0DD9892ADA3CE222F29D470B3 /* Pods_WatchCon_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		0B09ED0180F2A1069C6BE9F3F52FA894 /* Quick */ = {
@@ -1121,25 +981,7 @@
 			);
 			name = Quick;
 			productName = Quick;
-			productReference = C86565104DACAB05DFE88A305A1F68DB /* Quick.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		1F31940B0AA379C855C3873A88326CB5 /* Pods-WatchOS-Sample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58473F2F7EE2F80A05B0DB4A1CC6A767 /* Build configuration list for PBXNativeTarget "Pods-WatchOS-Sample" */;
-			buildPhases = (
-				B45978A2845FF6AED0207C2684F9BFCB /* Sources */,
-				237236FF28CC2A3FF3A3DAC76DEB6DA6 /* Frameworks */,
-				C894B81C2EB8B11F2B16F60CDC5ADBC2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				882000FBCCB8979446F4036085600D3C /* PBXTargetDependency */,
-			);
-			name = "Pods-WatchOS-Sample";
-			productName = "Pods-WatchOS-Sample";
-			productReference = D4E35ACA039BB3C67947FA0754769F90 /* Pods_WatchOS_Sample.framework */;
+			productReference = 9DF19852F8BBEF0BB4536AD3677FD87A /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5D161BA711701D7E41E02A5702FD024E /* Expecta */ = {
@@ -1156,24 +998,7 @@
 			);
 			name = Expecta;
 			productName = Expecta;
-			productReference = 231D229FFFF8CE464D0646A20EA3CB61 /* Expecta.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		712649F45B80677438D39FFB882EA6F5 /* WatchCon */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0404F1EA126AF93F810FA27404F9A153 /* Build configuration list for PBXNativeTarget "WatchCon" */;
-			buildPhases = (
-				48B1D53D25DF3A96496CC64B90931EF4 /* Sources */,
-				ECE2858ECB202E3EF707900E09234768 /* Frameworks */,
-				4A41310E2086F4E063BCF21DD38AABD8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = WatchCon;
-			productName = WatchCon;
-			productReference = AA20D29D7184780B6CDD9E6E41C973D8 /* WatchCon.framework */;
+			productReference = AB428F63DB20EF600A110F54A4E3FBC1 /* Expecta.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DC54C98851E54D349520C786701A1845 /* OCMock */ = {
@@ -1190,7 +1015,7 @@
 			);
 			name = OCMock;
 			productName = OCMock;
-			productReference = EAF2C71AF72C55F3D3D8AB65A3F3153F /* OCMock.framework */;
+			productReference = D30B6A0CC0424BF0A23012B9E308BCD0 /* OCMock.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E5DFFDEE1C3977CD9BBE0740493172A4 /* Pods-WatchCon-iOSTests */ = {
@@ -1210,7 +1035,7 @@
 			);
 			name = "Pods-WatchCon-iOSTests";
 			productName = "Pods-WatchCon-iOSTests";
-			productReference = 279D5BD5027F9BEE4B01296D88F7CC68 /* Pods_WatchCon_iOSTests.framework */;
+			productReference = 76895DE189BEB71B454E9759AAF7FF95 /* Pods_WatchCon_iOSTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1230,7 +1055,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 8B4B4A80C91B7C40AF0F3CEF91AA78A2 /* Products */;
+			productRefGroup = E750C5BA05686A837C641B839EF9AA75 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1238,9 +1063,7 @@
 				DC54C98851E54D349520C786701A1845 /* OCMock */,
 				05CE34068D3620D52C6F8250E0222AE9 /* Pods-WatchCon-iOS */,
 				E5DFFDEE1C3977CD9BBE0740493172A4 /* Pods-WatchCon-iOSTests */,
-				1F31940B0AA379C855C3873A88326CB5 /* Pods-WatchOS-Sample */,
 				0B09ED0180F2A1069C6BE9F3F52FA894 /* Quick */,
-				712649F45B80677438D39FFB882EA6F5 /* WatchCon */,
 			);
 		};
 /* End PBXProject section */
@@ -1259,23 +1082,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AB367EF8F4DB4B536255B5FEFB08715 /* Pods-WatchCon-iOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		48B1D53D25DF3A96496CC64B90931EF4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83619FCB5363AB40291422BA37F4652E /* WatchCon-dummy.m in Sources */,
-				2F583BEAD7932774AF250070CC8B13F5 /* WatchConSession.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B45978A2845FF6AED0207C2684F9BFCB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				192D54D8AAEF3D11B14E61816B554292 /* Pods-WatchOS-Sample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1403,12 +1209,6 @@
 			target = DC54C98851E54D349520C786701A1845 /* OCMock */;
 			targetProxy = F40698F659536C6FD3AE93D223251E19 /* PBXContainerItemProxy */;
 		};
-		882000FBCCB8979446F4036085600D3C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WatchCon;
-			target = 712649F45B80677438D39FFB882EA6F5 /* WatchCon */;
-			targetProxy = E2A4FDB90F208FA20A32CB131AE13668 /* PBXContainerItemProxy */;
-		};
 		C1E09871B489E4DD47795D497B84E31C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Quick;
@@ -1455,44 +1255,9 @@
 			};
 			name = Release;
 		};
-		0AC5C8CAED82245640187A9F88E58FC6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFE1ACEA756430D0E09AD6A062F9CB84 /* Pods-WatchOS-Sample.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchOS-Sample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchOS-Sample/Pods-WatchOS-Sample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WatchOS_Sample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		0D2DE3E9F0B598023817034D5CDBB8FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80128CD57235669A6DC28494D7F35B50 /* Pods-WatchCon-iOSTests.release.xcconfig */;
+			baseConfigurationReference = B8F58EC47C914BA9CAC6071FCD45AA0E /* Pods-WatchCon-iOSTests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1589,7 +1354,7 @@
 		};
 		2E104619FDCDC7BFB0E2E8D9232325EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 433FB3A499D5B9AD450291E957AD146F /* Pods-WatchCon-iOSTests.debug.xcconfig */;
+			baseConfigurationReference = 504D656C4F97528FE346D13533D9E9E3 /* Pods-WatchCon-iOSTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1700,7 +1465,7 @@
 		};
 		8FFCA7CE93297189B90B9166FAC9FC15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6CBD20EFB00DCEEA114C51C85655F75A /* Pods-WatchCon-iOS.debug.xcconfig */;
+			baseConfigurationReference = E73445C4E689426431E3221873A709BF /* Pods-WatchCon-iOS.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1735,7 +1500,7 @@
 		};
 		AF72CC73796F1ACDC246F327FC57073D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8374C7359586FB71E2604988790E5198 /* Pods-WatchCon-iOS.release.xcconfig */;
+			baseConfigurationReference = D818B08E7066864B087D96478AD2F8F1 /* Pods-WatchCon-iOS.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1767,41 +1532,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		B4C04382611F0BB8396F71CF9BCE04F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D838A8000D303A879628ED59C3B5345 /* Pods-WatchOS-Sample.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-WatchOS-Sample/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WatchOS-Sample/Pods-WatchOS-Sample.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_WatchOS_Sample;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1840,37 +1570,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C706C7AAF1F97197B0095D8A847440FA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A6E8D149286CD019D49FD1470DA500E /* WatchCon.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WatchCon/WatchCon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WatchCon/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WatchCon/WatchCon.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = WatchCon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -1937,49 +1636,9 @@
 			};
 			name = Debug;
 		};
-		FFE222655620F0C114C795D3A36B559D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A6E8D149286CD019D49FD1470DA500E /* WatchCon.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/WatchCon/WatchCon-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WatchCon/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WatchCon/WatchCon.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = WatchCon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0404F1EA126AF93F810FA27404F9A153 /* Build configuration list for PBXNativeTarget "WatchCon" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FFE222655620F0C114C795D3A36B559D /* Debug */,
-				C706C7AAF1F97197B0095D8A847440FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		09381A9A84A0A8E73577B2BF10E583E5 /* Build configuration list for PBXNativeTarget "Expecta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2003,15 +1662,6 @@
 			buildConfigurations = (
 				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
 				B7324857C38B065FEB1EEE3105C2367A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		58473F2F7EE2F80A05B0DB4A1CC6A767 /* Build configuration list for PBXNativeTarget "Pods-WatchOS-Sample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B4C04382611F0BB8396F71CF9BCE04F7 /* Debug */,
-				0AC5C8CAED82245640187A9F88E58FC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
