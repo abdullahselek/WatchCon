@@ -45,6 +45,10 @@
     [self.session updateApplicationContext:dictionary error:nil];
 }
 
+- (void)transferUserInfo:(NSDictionary<NSString *, id> *)dictionary {
+    [self.session transferUserInfo:dictionary];
+}
+
 #pragma mark - WCSession Delegate
 
 - (void)session:(WCSession *)session
@@ -82,7 +86,9 @@ activationDidCompleteWithState:(WCSessionActivationState)activationState
 }
 
 - (void)session:(WCSession *)session didReceiveUserInfo:(NSDictionary<NSString *, id> *)userInfo {
-    
+    if ([self.delegate respondsToSelector:@selector(didReceiveUserInfo:)]) {
+        [self.delegate didReceiveUserInfo:userInfo];
+    }
 }
 
 @end
