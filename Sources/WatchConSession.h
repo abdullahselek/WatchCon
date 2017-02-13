@@ -17,7 +17,11 @@ NS_ASSUME_NONNULL_BEGIN
                                  error:(nullable NSError *)error __IOS_AVAILABLE(9.3) __WATCHOS_AVAILABLE(2.2);
 - (void)sessionDidBecomeInactive:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
 - (void)sessionDidDeactivate:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
+
+#pragma mark - Background transfers
+
 - (void)didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext;
+- (void)didReceiveUserInfo:(NSDictionary<NSString *, id> *)userInfo;
 
 @end
 

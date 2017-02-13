@@ -81,4 +81,8 @@ activationDidCompleteWithState:(WCSessionActivationState)activationState
     }
 }
 
+- (void)session:(WCSession *)session didReceiveUserInfo:(NSDictionary<NSString *, id> *)userInfo {
+    
+}
+
 @end
