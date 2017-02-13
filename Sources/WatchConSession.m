@@ -98,4 +98,16 @@ activationDidCompleteWithState:(WCSessionActivationState)activationState
     }
 }
 
+- (void)session:(WCSession *)session didFinishFileTransfer:(WCSessionFileTransfer *)fileTransfer error:(nullable NSError *)error {
+    if ([self.delegate respondsToSelector:@selector(didFinishFileTransfer:error:)]) {
+        [self.delegate didFinishFileTransfer:fileTransfer error:error];
+    }
+}
+
+- (void)session:(WCSession *)session didReceiveFile:(WCSessionFile *)file {
+    if ([self.delegate respondsToSelector:@selector(didReceiveFile:)]) {
+        [self.delegate didReceiveFile:file];
+    }
+}
+
 @end

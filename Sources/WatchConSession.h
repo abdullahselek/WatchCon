@@ -22,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext;
 - (void)didReceiveUserInfo:(NSDictionary<NSString *, id> *)userInfo;
+- (void)didFinishFileTransfer:(WCSessionFileTransfer *)fileTransfer error:(nullable NSError *)error;
+- (void)didReceiveFile:(WCSessionFile *)file;
 
 @end
 
