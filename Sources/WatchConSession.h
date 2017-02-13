@@ -17,6 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
                                  error:(nullable NSError *)error __IOS_AVAILABLE(9.3) __WATCHOS_AVAILABLE(2.2);
 - (void)sessionDidBecomeInactive:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
 - (void)sessionDidDeactivate:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
+- (void)didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext;
 
 @end
 
@@ -26,6 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)sharedInstance;
 - (void)activate;
+- (void)updateApplicationContext:(NSDictionary<NSString *, id> *)dictionary;
 
 @end
 

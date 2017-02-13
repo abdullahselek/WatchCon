@@ -41,6 +41,10 @@
     }
 }
 
+- (void)updateApplicationContext:(NSDictionary<NSString *, id> *)dictionary {
+    [self.session updateApplicationContext:dictionary error:nil];
+}
+
 #pragma mark - WCSession Delegate
 
 - (void)session:(WCSession *)session
@@ -69,6 +73,12 @@ activationDidCompleteWithState:(WCSessionActivationState)activationState
 
 - (void)sessionReachabilityDidChange:(WCSession *)session {
 
+}
+
+- (void)session:(WCSession *)session didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext {
+    if ([self.delegate respondsToSelector:@selector(didReceiveApplicationContext:)]) {
+        [self.delegate didReceiveApplicationContext:applicationContext];
+    }
 }
 
 @end
