@@ -32,6 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)sharedInstance;
 - (void)activate;
 - (void)updateApplicationContext:(NSDictionary<NSString *, id> *)dictionary;
+- (void)transferUserInfo:(NSDictionary<NSString *, id> *)dictionary;
+- (void)transferFile:(NSURL *)url metadataDict:(nullable NSDictionary<NSString *, id> *)metadataDict;
 
 @end
 

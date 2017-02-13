@@ -41,12 +41,19 @@
     }
 }
 
+#pragma mark - Background Transfers
+
 - (void)updateApplicationContext:(NSDictionary<NSString *, id> *)dictionary {
     [self.session updateApplicationContext:dictionary error:nil];
 }
 
 - (void)transferUserInfo:(NSDictionary<NSString *, id> *)dictionary {
     [self.session transferUserInfo:dictionary];
+}
+
+- (BOOL)transferFile:(NSURL *)url metadataDict:(NSDictionary<NSString *, id> *)metadataDict {
+    WCSessionFileTransfer *fileTransfer = [self.session transferFile:url metadata:metadataDict];
+    return fileTransfer.isTransferring;
 }
 
 #pragma mark - WCSession Delegate
