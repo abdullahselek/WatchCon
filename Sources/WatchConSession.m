@@ -61,19 +61,19 @@
 - (void)session:(WCSession *)session
 activationDidCompleteWithState:(WCSessionActivationState)activationState
           error:(NSError *)error __IOS_AVAILABLE(9.3) __WATCHOS_AVAILABLE(2.2) {
-    if ([self.delegate respondsToSelector:@selector(activationDidCompleteWithState:error:)]) {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(activationDidCompleteWithState:error:)]) {
         [self.delegate activationDidCompleteWithState:activationState error:error];
     }
 }
 
 - (void)sessionDidBecomeInactive:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE {
-    if ([self.delegate respondsToSelector:@selector(sessionDidBecomeInactive:)]) {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(sessionDidBecomeInactive:)]) {
         [self.delegate sessionDidBecomeInactive:session];
     }
 }
 
 - (void)sessionDidDeactivate:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE {
-    if ([self.delegate respondsToSelector:@selector(sessionDidDeactivate:)]) {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(sessionDidDeactivate:)]) {
         [self.delegate sessionDidDeactivate:session];
     }
 }
@@ -87,25 +87,25 @@ activationDidCompleteWithState:(WCSessionActivationState)activationState
 }
 
 - (void)session:(WCSession *)session didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext {
-    if ([self.delegate respondsToSelector:@selector(didReceiveApplicationContext:)]) {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(didReceiveApplicationContext:)]) {
         [self.delegate didReceiveApplicationContext:applicationContext];
     }
 }
 
 - (void)session:(WCSession *)session didReceiveUserInfo:(NSDictionary<NSString *, id> *)userInfo {
-    if ([self.delegate respondsToSelector:@selector(didReceiveUserInfo:)]) {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(didReceiveUserInfo:)]) {
         [self.delegate didReceiveUserInfo:userInfo];
     }
 }
 
 - (void)session:(WCSession *)session didFinishFileTransfer:(WCSessionFileTransfer *)fileTransfer error:(nullable NSError *)error {
-    if ([self.delegate respondsToSelector:@selector(didFinishFileTransfer:error:)]) {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(didFinishFileTransfer:error:)]) {
         [self.delegate didFinishFileTransfer:fileTransfer error:error];
     }
 }
 
 - (void)session:(WCSession *)session didReceiveFile:(WCSessionFile *)file {
-    if ([self.delegate respondsToSelector:@selector(didReceiveFile:)]) {
+    if (self.delegate && [self.delegate respondsToSelector:@selector(didReceiveFile:)]) {
         [self.delegate didReceiveFile:file];
     }
 }
