@@ -35,7 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)activate;
 - (void)updateApplicationContext:(NSDictionary<NSString *, id> *)dictionary;
 - (void)transferUserInfo:(NSDictionary<NSString *, id> *)dictionary;
-- (void)transferFile:(NSURL *)url metadataDict:(nullable NSDictionary<NSString *, id> *)metadataDict;
+- (BOOL)transferFile:(NSURL *)url metadataDict:(nullable NSDictionary<NSString *, id> *)metadataDict;
 
 @end
 
