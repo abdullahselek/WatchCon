@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <WatchConnectivity/WatchConnectivity.h>
 
+#define BLOCK_EXEC(block, ...) if (block) { block(__VA_ARGS__); };
+
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol WatchConSessionDelegate <NSObject>
@@ -36,6 +38,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)updateApplicationContext:(NSDictionary<NSString *, id> *)dictionary;
 - (void)transferUserInfo:(NSDictionary<NSString *, id> *)dictionary;
 - (BOOL)transferFile:(NSURL *)url metadataDict:(nullable NSDictionary<NSString *, id> *)metadataDict;
+- (void)sendMessage:(NSDictionary<NSString *, id> *)message
+    completionBlock:(void (^)(NSDictionary * _Nullable result, NSError  * _Nullable error))completionBlock;
 
 @end
 

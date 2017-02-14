@@ -56,6 +56,20 @@
     return fileTransfer.isTransferring;
 }
 
+#pragma mark - Sending Message
+
+- (void)sendMessage:(NSDictionary<NSString *, id> *)message
+    completionBlock:(void (^)(NSDictionary * _Nullable result, NSError  * _Nullable error))completionBlock {
+    [self.session sendMessage:message
+                 replyHandler:^(NSDictionary *replyHandler) {
+                     BLOCK_EXEC(completionBlock, replyHandler, nil);
+                 }
+                 errorHandler:^(NSError *error) {
+                     BLOCK_EXEC(completionBlock, nil, error);
+                 }
+     ];
+}
+
 #pragma mark - WCSession Delegate
 
 - (void)session:(WCSession *)session
