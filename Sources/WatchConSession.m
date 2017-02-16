@@ -8,6 +8,8 @@
 
 #import "WatchConSession.h"
 
+NSString *const WatchConErrorDomain = @"WatchCon";
+
 @interface WatchConSession ()
 
 @property (nonatomic, strong) WCSession *session;
@@ -60,6 +62,14 @@
 
 - (void)sendMessage:(NSDictionary<NSString *, id> *)message
     completionBlock:(void (^)(NSDictionary * _Nullable result, NSError  * _Nullable error))completionBlock {
+    if (![self.session isReachable]) {
+        NSDictionary *userInfo = @{
+                                   NSLocalizedDescriptionKey: NSLocalizedString(@"Operation was unsuccessful.", nil),
+                                   NSLocalizedFailureReasonErrorKey: NSLocalizedString(@"WatchKit Session is not reachable.", nil),
+                                   NSLocalizedRecoverySuggestionErrorKey: NSLocalizedString(@"Have you tried connecting your iPhone and Watch?", nil)};
+        NSError *error = [NSError errorWithDomain:WatchConErrorDomain code:404 userInfo:userInfo];
+        BLOCK_EXEC(completionBlock, nil, error);
+    }
     [self.session sendMessage:message
                  replyHandler:^(NSDictionary *replyHandler) {
                      BLOCK_EXEC(completionBlock, replyHandler, nil);
