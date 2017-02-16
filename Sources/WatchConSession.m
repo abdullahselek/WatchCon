@@ -8,6 +8,8 @@
 
 #import "WatchConSession.h"
 
+#define BLOCK_EXEC(block, ...) if (block) { block(__VA_ARGS__); };
+
 NSString *const WatchConErrorDomain = @"WatchCon";
 
 @interface WatchConSession ()
@@ -130,7 +132,7 @@ activationDidCompleteWithState:(WCSessionActivationState)activationState
     }
 }
 
-#pragma mark - WCSession Bakground Transfers
+#pragma mark - WCSession Background Transfers
 
 - (void)session:(WCSession *)session didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext {
     if (self.delegate && [self.delegate respondsToSelector:@selector(didReceiveApplicationContext:)]) {

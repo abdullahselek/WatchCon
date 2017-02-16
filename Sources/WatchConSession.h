@@ -9,8 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <WatchConnectivity/WatchConnectivity.h>
 
-#define BLOCK_EXEC(block, ...) if (block) { block(__VA_ARGS__); };
-
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol WatchConSessionDelegate <NSObject>
