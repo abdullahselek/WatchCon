@@ -64,7 +64,7 @@ NSString *const WatchConErrorDomain = @"WatchCon";
     completionBlock:(void (^)(NSDictionary * _Nullable result, NSError  * _Nullable error))completionBlock {
     if (![self.session isReachable]) {
         NSDictionary *userInfo = @{
-                                   NSLocalizedDescriptionKey: NSLocalizedString(@"Operation was unsuccessful.", nil),
+                                   NSLocalizedDescriptionKey: NSLocalizedString(@"Send message was unsuccessful.", nil),
                                    NSLocalizedFailureReasonErrorKey: NSLocalizedString(@"WatchKit Session is not reachable.", nil),
                                    NSLocalizedRecoverySuggestionErrorKey: NSLocalizedString(@"Have you tried connecting your iPhone and Watch?", nil)};
         NSError *error = [NSError errorWithDomain:WatchConErrorDomain code:404 userInfo:userInfo];
@@ -83,7 +83,7 @@ NSString *const WatchConErrorDomain = @"WatchCon";
 - (void)sendMessageData:(NSData *)messageData completionBlock:(void (^)(NSData * _Nullable result, NSError  * _Nullable error))completionBlock {
     if (![self.session isReachable]) {
         NSDictionary *userInfo = @{
-                                   NSLocalizedDescriptionKey: NSLocalizedString(@"Operation was unsuccessful.", nil),
+                                   NSLocalizedDescriptionKey: NSLocalizedString(@"Send message data was unsuccessful.", nil),
                                    NSLocalizedFailureReasonErrorKey: NSLocalizedString(@"WatchKit Session is not reachable.", nil),
                                    NSLocalizedRecoverySuggestionErrorKey: NSLocalizedString(@"Have you tried connecting your iPhone and Watch?", nil)};
         NSError *error = [NSError errorWithDomain:WatchConErrorDomain code:404 userInfo:userInfo];
