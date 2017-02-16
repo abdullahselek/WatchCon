@@ -93,12 +93,18 @@ activationDidCompleteWithState:(WCSessionActivationState)activationState
 }
 
 - (void)sessionWatchStateDidChange:(WCSession *)session __WATCHOS_UNAVAILABLE {
-
+    if (self.delegate && [self.delegate respondsToSelector:@selector(sessionWatchStateDidChange:)]) {
+        [self.delegate sessionWatchStateDidChange:session];
+    }
 }
 
 - (void)sessionReachabilityDidChange:(WCSession *)session {
-
+    if (self.delegate && [self.delegate respondsToSelector:@selector(sessionReachabilityDidChange:)]) {
+        [self.delegate sessionReachabilityDidChange:session];
+    }
 }
+
+#pragma mark - WCSession Bakground Transfers
 
 - (void)session:(WCSession *)session didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext {
     if (self.delegate && [self.delegate respondsToSelector:@selector(didReceiveApplicationContext:)]) {
