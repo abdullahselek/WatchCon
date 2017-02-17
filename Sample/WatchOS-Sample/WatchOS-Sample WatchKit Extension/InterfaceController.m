@@ -29,9 +29,20 @@
 
 #pragma mark - WatchConSession Delegate
 
-- (void)activationDidCompleteWithState:(WCSessionActivationState)activationState
-                                 error:(nullable NSError *)error{
-    
+- (void)didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext {
+
+}
+
+- (void)didReceiveUserInfo:(NSDictionary<NSString *, id> *)userInfo {
+
+}
+
+- (void)didFinishFileTransfer:(WCSessionFileTransfer *)fileTransfer error:(nullable NSError *)error {
+
+}
+
+- (void)didReceiveFile:(WCSessionFile *)file {
+
 }
 
 - (void)didDeactivate {
