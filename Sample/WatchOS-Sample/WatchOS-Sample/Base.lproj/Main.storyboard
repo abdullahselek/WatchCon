@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="hzw-z2-bLC">
-                                <rect key="frame" x="107" y="40" width="161" height="171"/>
+                                <rect key="frame" x="107" y="60" width="161" height="171"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xzf-Is-SHk">
                                         <rect key="frame" x="0.0" y="0.0" width="161" height="30"/>
@@ -59,7 +59,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hzw-z2-bLC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7fa-Ka-BnM"/>
-                            <constraint firstItem="hzw-z2-bLC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-208" id="pfK-hW-84d"/>
+                            <constraint firstItem="hzw-z2-bLC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-188" id="pfK-hW-84d"/>
                         </constraints>
                     </view>
                     <connections>

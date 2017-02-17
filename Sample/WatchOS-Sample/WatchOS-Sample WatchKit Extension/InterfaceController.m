@@ -8,11 +8,11 @@
 
 #import "InterfaceController.h"
 
-
 @interface InterfaceController()
 
-@end
+@property (nonatomic) WatchConSession *watchConSession;
 
+@end
 
 @implementation InterfaceController
 
@@ -23,7 +23,9 @@
 }
 
 - (void)willActivate {
-    // This method is called when watch view controller is about to be visible to user
+    self.watchConSession = [WatchConSession sharedInstance];
+    self.watchConSession.delegate = self;
+    [self.watchConSession activate];
     [super willActivate];
 }
 
