@@ -10,16 +10,47 @@
 
 @interface ViewController ()
 
+@property (nonatomic) WatchConSession *watchConSession;
+@property (weak, nonatomic) IBOutlet UITextField *messageTextField;
+
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.watchConSession = [WatchConSession sharedInstance];
+    self.watchConSession.delegate = self;
+}
+
+- (IBAction)activateWatchSession:(id)sender {
+    [self.watchConSession activate];
+}
+
+- (IBAction)sendMessage:(id)sender {
+    if (self.messageTextField.text != nil) {
+        [self.watchConSession sendMessage:@{@"message": self.messageTextField.text} completionBlock:^(NSDictionary * _Nullable result, NSError * _Nullable error) {
+            if (result) {
+                // message sent
+                NSLog(@"%@", result);
+            } else {
+                // got an error
+                NSLog(@"%@", error.localizedDescription);
+            }
+        }];
+    }
 }
 
 #pragma mark - WatchConSession Delegate
+
+- (void)activationDidCompleteWithState:(WCSessionActivationState)activationState
+                                 error:(nullable NSError *)error{
+    NSLog(@"%ld", activationState);
+    if (error) {
+        NSLog(@"ERROR on activation : %@", error.localizedDescription);
+    }
+}
 
 - (void)didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext {
 
