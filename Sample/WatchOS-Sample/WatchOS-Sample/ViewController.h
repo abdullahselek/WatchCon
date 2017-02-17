@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WatchCon/WatchCon.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<WatchConSessionDelegate>
 
 
 @end
