@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name                  = 'WatchCon'
-    s.version               = '0.1'
+    s.version               = '1.0'
     s.summary               = 'WatchCon is a tool which enables creating easy connectivity between iOS and WatchOS'
     s.homepage              = 'https://github.com/abdullahselek/WatchCon'
     s.license               = {
