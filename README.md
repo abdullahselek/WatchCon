@@ -1,3 +1,8 @@
+![CocoaPods Compatible](https://img.shields.io/cocoapods/v/WatchCon.svg)
+[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+![Platform](https://img.shields.io/badge/platform-iOS | watchOS-lightgrey.svg)
+![License](https://img.shields.io/dub/l/vibe-d.svg)
+
 # WatchCon
 WatchCon is a tool which enables creating easy connectivity between iOS and WatchOS
 
