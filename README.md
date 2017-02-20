@@ -101,7 +101,7 @@ WatchConSessionDelegate
 + (instancetype)sharedInstance;
 ```
 
-### Actiavates session
+### Activates session
 ```
 - (void)activate;
 ```
