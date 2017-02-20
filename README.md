@@ -48,86 +48,86 @@ Run carthage update to build the framework and drag the built WatchCon.framework
 WatchConSessionDelegate
 ```
 
-### Called when the session has completed activation. With state WCSessionActivationStateNotActivated is succeed
+- Called when the session has completed activation. With state WCSessionActivationStateNotActivated is succeed
 ```
 - (void)activationDidCompleteWithState:(WCSessionActivationState)activationState
                                  error:(nullable NSError *)error __IOS_AVAILABLE(9.3) __WATCHOS_AVAILABLE(2.2);
 ```
 
-### Called when the session can no longer be used to modify or add any new transfers
+- Called when the session can no longer be used to modify or add any new transfers
 ```
 - (void)sessionDidBecomeInactive:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
 ```
 
-### Called when all delegate callbacks for the previously selected watch has occurred 
+- Called when all delegate callbacks for the previously selected watch has occurred 
 ```
 - (void)sessionDidDeactivate:(WCSession *)session __IOS_AVAILABLE(9.3) __WATCHOS_UNAVAILABLE;
 ```
 
-### Called when any of the Watch state properties change
+- Called when any of the Watch state properties change
 ```
 - (void)sessionWatchStateDidChange:(WCSession *)session __WATCHOS_UNAVAILABLE;
 ```
 
-### Called when the reachable state of the counterpart app changes
+- Called when the reachable state of the counterpart app changes
 ```
 - (void)sessionReachabilityDidChange:(WCSession *)session;
 ```
 
-### Called on the delegate of the receiver. Will be called on startup if an applicationContext is available
+- Called on the delegate of the receiver. Will be called on startup if an applicationContext is available
 ```
 - (void)didReceiveApplicationContext:(NSDictionary<NSString *, id> *)applicationContext;
 ```
 
-### Will be called in receiver on startup if the user info finished transferring when the receiver was not running
+- Will be called in receiver on startup if the user info finished transferring when the receiver was not running
 ```
 - (void)didReceiveUserInfo:(NSDictionary<NSString *, id> *)userInfo;
 ```
 
-### Called on the sending side after the file transfer has successfully completed or failed with an error
+- Called on the sending side after the file transfer has successfully completed or failed with an error
 ```
 - (void)didFinishFileTransfer:(WCSessionFileTransfer *)fileTransfer error:(nullable NSError *)error;
 ```
 
-### Will be called on startup if the file finished transferring when the receiver was not running
+- Will be called on startup if the file finished transferring when the receiver was not running
 ```
 - (void)didReceiveFile:(WCSessionFile *)file;
 ```
 
 ## WatchCon Functions
 
-### Get WathCon instance
+- Get WathCon instance
 ```
 + (instancetype)sharedInstance;
 ```
 
-### Activates session
+- Activates session
 ```
 - (void)activate;
 ```
 
-### A way to transfer the latest state of an app
+- A way to transfer the latest state of an app
 ```
 - (void)updateApplicationContext:(NSDictionary<NSString *, id> *)dictionary;
 ```
 
-### Transfers user info
+- Transfers user info
 ```
 - (void)transferUserInfo:(NSDictionary<NSString *, id> *)dictionary;
 ```
 
-### Transfer file on the given url
+- Transfer file on the given url
 ```
 - (BOOL)transferFile:(NSURL *)url metadataDict:(nullable NSDictionary<NSString *, id> *)metadataDict;
 ```
 
-### Clients can use this method to send messages to the counterpart app
+- Clients can use this method to send messages to the counterpart app
 ```
 - (void)sendMessage:(NSDictionary<NSString *, id> *)message
     completionBlock:(void (^)(NSDictionary * _Nullable result, NSError  * _Nullable error))completionBlock;
 ```
 
-### Clients can use this method to send message data
+- Clients can use this method to send message data
 ```
 - (void)sendMessageData:(NSData *)messageData completionBlock:(void (^)(NSData * _Nullable result, NSError  * _Nullable error))completionBlock;
 ```
