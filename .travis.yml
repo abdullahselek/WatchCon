@@ -7,7 +7,7 @@ env:
   - LANG=en_US.UTF-8
   - WORKSPACE=WatchCon.xcworkspace
   - IOS_FRAMEWORK_SCHEME="WatchCon-iOS"
-  - MACOS_FRAMEWORK_SCHEME="WatchCon-watchOS"
+  - WATCHOS_FRAMEWORK_SCHEME="WatchCon-watchOS"
   - IOS_SDK=iphonesimulator10.0
   - WATCHOS_SDK=watchsimulator3.0
   matrix:
